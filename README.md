@@ -10,6 +10,8 @@ packs/
   example/           template — copy this to start a new pack
   creative-preset/   client-side preset for Not-Boring Creative (shaders)
   survival/          both-sides performance pack
+legacy/
+  beta173/           Beta 1.7.3 server — not a packwiz pack, see its README
 ```
 
 ## Install links
@@ -40,6 +42,13 @@ of the box.
 **survival** — same mod list on both sides (Fabric API, Lithium, FerriteCore,
 Krypton). The server's own mods come from this same directory, so the two can't
 drift apart.
+
+**legacy/beta173** — the Beta 1.7.3 server at `beta.coxford.net`. Deliberately not a
+packwiz pack: b1.7.3 predates Modrinth, Fabric and the `mods/` folder entirely, and
+its mods are patched into `minecraft.jar`, which `.mrpack` cannot express. Client
+setup is a one-time four-click job in Prism; the server side is documented in
+[`legacy/beta173/README.md`](legacy/beta173/README.md). The build job skips any
+directory without a `pack.toml`, so nothing here breaks CI.
 
 ## Adding mods, shaders, and resource packs
 
