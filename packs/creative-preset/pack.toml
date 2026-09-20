@@ -1,0 +1,14 @@
+name = "Coxford Creative Preset"
+author = "Coxford Network"
+version = "0.1.0"
+description = "Client-side preset for the Not-Boring Creative server. The server is vanilla Paper; nothing here is required to join."
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "39c841f7ccd75c983b854d634cba2cc2d2c89f9d2b65daeab50910c86436274a"
+
+[versions]
+minecraft = "26.2"
+fabric = "0.19.5"

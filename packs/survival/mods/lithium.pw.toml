@@ -1,0 +1,14 @@
+name = "Lithium"
+filename = "lithium-fabric-0.25.3+mc26.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "435ad0289209bb72195e7a423756a03f5dfa5a9a"
+mode = "url"
+url = "https://cdn.modrinth.com/data/gvQqBUqZ/versions/f7vZ0VWU/lithium-fabric-0.25.3%2Bmc26.2.jar"
+
+[update]
+[update.modrinth]
+mod-id = "gvQqBUqZ"
+version = "f7vZ0VWU"

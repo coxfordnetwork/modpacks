@@ -1,0 +1,41 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/iris.properties"
+hash = "4e06e9b54cf4de7bdaf7becdcd3662bdd07e7992bd787e4ddfa7d97e9f628faa"
+preserve = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "9323eea421253b68a93f59af1788f24dbf294d9132b94add0cd243ef055e3810"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "87bb0c18962d66d924e29b2cad5cdf45f0b94ef541ddc0b1a418bb2f592e869f"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "b88409c4d88868f3020cf758a606acf9c9f6e1088e308a1bcefa5f0a123c2855"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "550f663d2e325b88eace8950360ad3ac5ee45864621768e9b4b4da7f31a27bd2"
+metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "12d2758b622937307019849e12b7e10972bf9103650115c5ea8acc5dbc0824e6"
+preserve = true
+
+[[files]]
+file = "resourcepacks/better-leaves.pw.toml"
+hash = "63c94d7a70c2514ff6534506576c4987d7c5a9a1e5a5e414af555543803692ad"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "1c64b690e1a32353621ed756b2dc017462d275f138931d1dc0790ba023aba4af"
+metafile = true

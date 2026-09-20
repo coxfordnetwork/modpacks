@@ -1,0 +1,14 @@
+name = "Krypton"
+filename = "krypton-0.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c83ed92c0f9f8523d7e6096151e74222fea91e96"
+mode = "url"
+url = "https://cdn.modrinth.com/data/fQEb0iXm/versions/5WeL0Nkz/krypton-0.3.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "fQEb0iXm"
+version = "5WeL0Nkz"
