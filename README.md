@@ -1,9 +1,11 @@
-# coxfordmc/modpacks
+# coxfordnetwork/modpacks
 
 Every Coxford modpack lives here, one directory per pack under `packs/`, in
 [packwiz](https://packwiz.infra.link/) format. Pushing to `main` builds each pack
-into a `.mrpack` and attaches it to a GitHub release, so the download links below
-never change.
+into a `.mrpack` and publishes it twice: under a permanent version tag
+(`<pack>-v<version>`, kept forever, which is what the website lists), and under a
+moving tag (`<pack>-latest`, overwritten every build), which is what the download
+links below point at — so those links never change.
 
 ```
 packs/
@@ -21,9 +23,12 @@ download by hand.
 
 | Pack | Direct link |
 | --- | --- |
-| example | `https://github.com/coxfordmc/modpacks/releases/latest/download/example.mrpack` |
-| creative-preset | `https://github.com/coxfordmc/modpacks/releases/latest/download/creative-preset.mrpack` |
-| survival | `https://github.com/coxfordmc/modpacks/releases/latest/download/survival.mrpack` |
+| example | `https://github.com/coxfordnetwork/modpacks/releases/download/example-latest/example.mrpack` |
+| creative-preset | `https://github.com/coxfordnetwork/modpacks/releases/download/creative-preset-latest/creative-preset.mrpack` |
+| survival | `https://github.com/coxfordnetwork/modpacks/releases/download/survival-latest/survival.mrpack` |
+
+Not `/releases/latest/download/...` — that resolves to the newest release in the
+whole repo, so it would hand out whichever pack was built last.
 
 **Prism Launcher** — Add Instance → Import → paste the link → OK.
 **Modrinth App** — it accepts the same `.mrpack` URL, or download it and open it.
@@ -108,8 +113,9 @@ packwiz refresh
 ```
 
 Then commit. The workflow globs every directory under `packs/`, so the new pack's
-link is `.../releases/latest/download/newpack.mrpack` from its first build — no CI
-changes needed.
+link is `.../releases/download/newpack-latest/newpack.mrpack` from its first build —
+no CI changes needed. To show it on the website, add an entry to `src/data/modpacks.js`
+in the website repo with `tagPattern: '^newpack-v'`.
 
 ## Installing packwiz locally
 
