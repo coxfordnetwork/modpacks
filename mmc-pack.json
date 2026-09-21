@@ -1,0 +1,129 @@
+{
+    "components": [
+        {
+            "cachedName": "LWJGL 2",
+            "cachedVersion": "2.9.4-nightly-20150209",
+            "cachedVolatile": true,
+            "dependencyOnly": true,
+            "uid": "org.lwjgl",
+            "version": "2.9.4-nightly-20150209"
+        },
+        {
+            "cachedName": "Minecraft",
+            "cachedRequires": [
+                {
+                    "suggests": "2.9.4-nightly-20150209",
+                    "uid": "org.lwjgl"
+                }
+            ],
+            "cachedVersion": "b1.7.3",
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "b1.7.3"
+        },
+        {
+            "cachedName": "------------------------------ Raw Fixes [Only Pick One] ------------------------------",
+            "cachedVersion": "1",
+            "uid": "org.multimc.custom.rawfixesonlypickone"
+        },
+        {
+            "cachedName": "Raw Fixes",
+            "uid": "org.multimc.jarmod.98a33079-1987-486d-b467-ccc80cde840f"
+        },
+        {
+            "cachedName": "Raw Fixes - Multiplayer Compatibility",
+            "disabled": true,
+            "uid": "org.multimc.jarmod.d9edd1d3-be12-4d79-bcaf-e7050398e296"
+        },
+        {
+            "cachedName": "Raw Fixes - Alpha Generation",
+            "disabled": true,
+            "uid": "org.multimc.jarmod.6ba58d0b-2b58-4fbb-85a0-412107b7f11a"
+        },
+        {
+            "cachedName": "------------------------------ Alpha Style ------------------------------",
+            "cachedVersion": "1",
+            "uid": "org.multimc.custom.alphastyle"
+        },
+        {
+            "cachedName": "Alpha Generation",
+            "disabled": true,
+            "uid": "org.multimc.jarmod.bbae9dbb-7914-47ff-b8af-98edd00ecef6"
+        },
+        {
+            "cachedName": "Functionless Beds",
+            "disabled": true,
+            "uid": "org.multimc.jarmod.90a04a1b-fbde-493c-ba9a-c3b252af75bc"
+        },
+        {
+            "cachedName": "Leaf Color Normalizer",
+            "disabled": true,
+            "uid": "org.multimc.jarmod.1a675292-4903-4fbf-914b-dfdf2ef4f9b3"
+        },
+        {
+            "cachedName": "------------------------------ General Mods ------------------------------",
+            "cachedVersion": "1",
+            "uid": "org.multimc.custom.generalmods"
+        },
+        {
+            "cachedName": "Optifine_MT_G2",
+            "uid": "org.multimc.jarmod.dd427e0f-8ca5-4e0b-b025-885383769025"
+        },
+        {
+            "cachedName": "Optifine_MT_G2_Patched (FOV & Distance Fix)",
+            "uid": "org.multimc.jarmod.b5a121fb-79f9-4bec-9f81-01226f7246e2"
+        },
+        {
+            "cachedName": "SinglePlayerCommands",
+            "uid": "org.multimc.jarmod.c2513e06-8969-448c-95d9-9d6a73706695"
+        },
+        {
+            "cachedName": "ModLoader b1.7.3",
+            "uid": "org.multimc.jarmod.980ad110-ae23-49d3-89fd-5852789deeca"
+        },
+        {
+            "cachedName": "------------------------------ General Fixes ------------------------------",
+            "cachedVersion": "1",
+            "uid": "org.multimc.custom.generalfixes"
+        },
+        {
+            "cachedName": "Block Name Fixes",
+            "uid": "org.multimc.jarmod.b969de98-a3ea-49eb-a1a7-f7d6285839e6"
+        },
+        {
+            "cachedName": "Skin Fix",
+            "uid": "org.multimc.jarmod.9c7b68a7-b80d-46f0-b3c5-c7726c8cc6a9"
+        },
+        {
+            "cachedName": "3D Dropped Items Fix",
+            "uid": "org.multimc.jarmod.eaecf26f-eedc-4e76-b2d7-67eacdbc3cf4"
+        },
+        {
+            "cachedName": "Quit Button Fix",
+            "uid": "org.multimc.jarmod.239096af-34c8-4c1a-9f22-58b243d2c15a"
+        },
+        {
+            "cachedName": "Fullscreen Cursor Fix",
+            "uid": "org.multimc.jarmod.d5c9a88e-de2f-498f-9638-b544b67d0c09"
+        },
+        {
+            "cachedName": "------------------------------ Optional Additions ------------------------------",
+            "cachedVersion": "1",
+            "uid": "org.multimc.custom.optionaladditions"
+        },
+        {
+            "cachedName": "Craftable Chainmail (Optional)",
+            "uid": "org.multimc.jarmod.2d7088f0-a430-437c-998c-b6c2eb53889f"
+        },
+        {
+            "cachedName": "Craftable Wool Armor (Optional)",
+            "uid": "org.multimc.jarmod.4ac21689-2e85-4f77-a0f5-508f1e28ca8d"
+        },
+        {
+            "cachedName": "Winter Mode (Optional)",
+            "disabled": true,
+            "uid": "org.multimc.jarmod.9f44907d-3b17-4911-83b5-caa30570ffa7"
+        }
+    ],
+    "formatVersion": 1
+}

@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "Raw Fixes - Alpha Gen",
+            "MMC-filename": "6ba58d0b-2b58-4fbb-85a0-412107b7f11a.jar",
+            "MMC-hint": "local",
+            "name": "org.multimc.jarmods:6ba58d0b-2b58-4fbb-85a0-412107b7f11a:1"
+        }
+    ],
+    "name": "Raw Fixes - Alpha Generation",
+    "uid": "org.multimc.jarmod.6ba58d0b-2b58-4fbb-85a0-412107b7f11a"
+}

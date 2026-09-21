@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "[v1.0] Alpha World Gen for Beta 1.7.3",
+            "MMC-filename": "bbae9dbb-7914-47ff-b8af-98edd00ecef6.jar",
+            "MMC-hint": "local",
+            "name": "org.multimc.jarmods:bbae9dbb-7914-47ff-b8af-98edd00ecef6:1"
+        }
+    ],
+    "name": "Alpha Generation",
+    "uid": "org.multimc.jarmod.bbae9dbb-7914-47ff-b8af-98edd00ecef6"
+}

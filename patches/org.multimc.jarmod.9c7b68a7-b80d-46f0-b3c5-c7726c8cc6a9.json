@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "SkinFixUni_v1.0",
+            "MMC-filename": "9c7b68a7-b80d-46f0-b3c5-c7726c8cc6a9.jar",
+            "MMC-hint": "local",
+            "name": "org.multimc.jarmods:9c7b68a7-b80d-46f0-b3c5-c7726c8cc6a9:1"
+        }
+    ],
+    "name": "Skin Fix",
+    "uid": "org.multimc.jarmod.9c7b68a7-b80d-46f0-b3c5-c7726c8cc6a9"
+}

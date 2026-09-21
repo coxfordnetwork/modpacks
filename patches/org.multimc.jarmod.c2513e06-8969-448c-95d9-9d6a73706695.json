@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "SinglePlayerCommands",
+            "MMC-filename": "c2513e06-8969-448c-95d9-9d6a73706695.jar",
+            "MMC-hint": "local",
+            "name": "org.multimc.jarmods:c2513e06-8969-448c-95d9-9d6a73706695:1"
+        }
+    ],
+    "name": "SinglePlayerCommands",
+    "uid": "org.multimc.jarmod.c2513e06-8969-448c-95d9-9d6a73706695"
+}

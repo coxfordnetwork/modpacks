@@ -1,0 +1,13 @@
+{
+  "user":{
+    "name":"ElectroBleach",
+    "sessionid":"local"
+  },
+  "stats-change":[
+    {"1003":2},
+    {"2000":4865},
+    {"1100":377},
+    {"1004":2}
+  ],
+  "checksum":"8a906b40ea04c0dba9e65ec4cc5618e3"
+}
