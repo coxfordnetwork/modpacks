@@ -1,0 +1,29 @@
+filename = 'ae2importexportcard-26.1.2-2.0.2.jar'
+name = 'AE2 Import Export Card'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ae2importexportcard-26.1.2-2.0.2.jar'
+
+[download]
+hash = 'b4ad15a148dd4e6518ac8fe4f6e27f1037276d0b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8519408
+project-id = 982512
+
+[[x-prismlauncher-dependencies]]
+addonId = '459929'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '965012'
+type = 'OPTIONAL'

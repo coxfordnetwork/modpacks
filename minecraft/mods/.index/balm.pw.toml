@@ -1,0 +1,18 @@
+filename = 'balm-neoforge-26.1.2-26.1.2.12.jar'
+name = 'Balm'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'balm-neoforge-26.1.2-26.1.2.12.jar'
+
+[download]
+hash = 'e5f89f3487dc26641c0738807aaef774ed734b53'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8645640
+project-id = 531761

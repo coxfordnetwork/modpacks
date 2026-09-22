@@ -1,0 +1,21 @@
+filename = 'DimStorage-26.1.2-10.0.1.jar'
+name = 'DimStorage'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DimStorage-26.1.2-10.0.1'
+
+[download]
+hash = '7c6f56340e2b391a807de94ad45198511af01154'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7961622
+project-id = 353882
+
+[[x-prismlauncher-dependencies]]
+addonId = '638508'
+type = 'REQUIRED'

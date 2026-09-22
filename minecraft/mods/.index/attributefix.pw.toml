@@ -1,0 +1,21 @@
+filename = 'AttributeFix-neoforge-MC26.1.2-26.1.2.3.jar'
+name = 'AttributeFix'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AttributeFix-neoforge-MC26.1.2-26.1.2.3.jar'
+
+[download]
+hash = 'bba72608a77d6c046cb7edead875081cbe851694'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8383507
+project-id = 280510
+
+[[x-prismlauncher-dependencies]]
+addonId = '1023259'
+type = 'REQUIRED'

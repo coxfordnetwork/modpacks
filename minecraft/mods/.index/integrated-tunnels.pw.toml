@@ -1,0 +1,25 @@
+filename = 'integratedtunnels-26.1.2-neoforge-1.9.6-675.jar'
+name = 'Integrated Tunnels'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'integratedtunnels-26.1.2-neoforge-1.9.6-675.jar'
+
+[download]
+hash = 'd53d8dfdff6d66adaef5140143f03472a3e39948'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8653477
+project-id = 251389
+
+[[x-prismlauncher-dependencies]]
+addonId = '236307'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '232758'
+type = 'REQUIRED'

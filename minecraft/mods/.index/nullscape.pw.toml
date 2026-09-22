@@ -1,0 +1,18 @@
+filename = 'Nullscape_26.1.2_v1.2.20.jar'
+name = 'Nullscape'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.2.20 ~ Mod'
+
+[download]
+hash = 'a03b0ca25523b1fd9366b26d27c4e82298dca62c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8394599
+project-id = 570354

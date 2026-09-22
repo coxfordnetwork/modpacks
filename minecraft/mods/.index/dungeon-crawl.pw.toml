@@ -1,0 +1,18 @@
+filename = 'DungeonCrawl-NeoForge-26.1-2.3.17.jar'
+name = 'Dungeon Crawl'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'mc26.1-2.3.17'
+
+[download]
+hash = '0a3e36aeb698e272559dfa89b1e3d6701bc14034'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7887378
+project-id = 324973

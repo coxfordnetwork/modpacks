@@ -1,0 +1,21 @@
+filename = 'cookingforblockheads-neoforge-26.1.2-26.1.2.4.jar'
+name = 'Cooking for Blockheads'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cookingforblockheads-neoforge-26.1.2-26.1.2.4.jar'
+
+[download]
+hash = '996e0e53fed5e183eb2faca65659f39f9cb390f6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8697091
+project-id = 231484
+
+[[x-prismlauncher-dependencies]]
+addonId = '531761'
+type = 'REQUIRED'

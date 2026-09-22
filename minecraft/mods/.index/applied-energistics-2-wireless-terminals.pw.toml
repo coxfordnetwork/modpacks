@@ -1,0 +1,21 @@
+filename = 'ae2wtlib-26.1.1-beta.jar'
+name = 'Applied Energistics 2 Wireless Terminals'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'ae2wtlib-26.1.1-beta.jar'
+
+[download]
+hash = '2fd46db5fa695fe2a094b9809b2865223ec82a7e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8544261
+project-id = 459929
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'REQUIRED'

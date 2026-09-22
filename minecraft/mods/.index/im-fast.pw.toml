@@ -1,0 +1,18 @@
+filename = 'imfast-NEOFORGE-26.1.2-1.0.3.jar'
+name = "I'm Fast"
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'imfast-NEOFORGE-26.1.2-1.0.3.jar'
+
+[download]
+hash = 'd90b905ab45ba4a9eaf3c76a3b4af406a7c978d5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7936868
+project-id = 1111501

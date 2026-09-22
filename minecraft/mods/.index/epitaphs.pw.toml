@@ -1,0 +1,25 @@
+filename = 'epitaphs-2.4.0+26.1.2.jar'
+name = 'Epitaphs'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Neoforge] Epitaphs 2.4.0-26.1.2'
+
+[download]
+hash = '0b2288d6d3e1ef883bf2777d1ddf66baa92ed492'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8577504
+project-id = 1325482
+
+[[x-prismlauncher-dependencies]]
+addonId = '314906'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'OPTIONAL'

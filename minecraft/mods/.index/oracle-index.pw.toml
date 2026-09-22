@@ -1,0 +1,21 @@
+filename = 'oracle_index-neoforge-2.0.0-exp1.jar'
+name = 'Oracle Index'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'neoforge 2.0.0-exp1'
+
+[download]
+hash = 'b72e0b58e016ae39d486ec5b509247bc2760ad0a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8535872
+project-id = 1206582
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

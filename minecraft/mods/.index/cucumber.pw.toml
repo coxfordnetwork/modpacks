@@ -1,0 +1,18 @@
+filename = 'Cucumber-26.1.2-9.0.5.jar'
+name = 'Cucumber Library'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Cucumber-26.1.2-9.0.5.jar'
+
+[download]
+hash = 'bf0bd5f03a7fa09f67c5df035446ba97d3a90746'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8433624
+project-id = 272335

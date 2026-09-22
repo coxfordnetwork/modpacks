@@ -1,0 +1,18 @@
+filename = 'CraterLib-Neoforge-26.1.2-3.1.2.jar'
+name = 'CraterLib'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge 26.1.2] CraterLib - 3.1.2'
+
+[download]
+hash = 'a00a952a66aa60c6397ee3b00d8a3f00635bda52'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8117951
+project-id = 867099

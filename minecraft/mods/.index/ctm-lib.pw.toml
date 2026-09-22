@@ -1,0 +1,18 @@
+filename = 'ctm-26.1.2.4.jar'
+name = 'CTM Lib'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ctm-26.1.2.4.jar'
+
+[download]
+hash = '0eb95b529ffbc8e2f9397a7d6c4e7dc13dc16cb0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8678738
+project-id = 1568397

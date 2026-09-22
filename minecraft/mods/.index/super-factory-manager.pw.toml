@@ -1,0 +1,18 @@
+filename = 'Super Factory Manager (SFM)-MC26.1.2-4.34.0.jar'
+name = 'Super Factory Manager ( SFM )'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Super Factory Manager MC26.1.2 v4.34.0'
+
+[download]
+hash = 'aedcd1c6b87fd8b2df3305d30834e2a7401dcc61'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8370242
+project-id = 306935

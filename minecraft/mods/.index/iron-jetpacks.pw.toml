@@ -1,0 +1,21 @@
+filename = 'IronJetpacks-26.1.2-9.0.3.jar'
+name = 'Iron Jetpacks'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'IronJetpacks-26.1.2-9.0.3.jar'
+
+[download]
+hash = '2242cdd3fc548755e375a50b2651ad66abd09677'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8093577
+project-id = 284497
+
+[[x-prismlauncher-dependencies]]
+addonId = '272335'
+type = 'REQUIRED'

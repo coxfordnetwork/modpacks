@@ -1,0 +1,18 @@
+filename = 'solcarrot-26.1-1.19.0.jar'
+name = 'Spice of Life: Carrot Edition'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'solcarrot-26.1-1.19.0.jar'
+
+[download]
+hash = '0ea384f84ea3b31c62d13fdd0b58f0d1430c35f0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7810780
+project-id = 277616

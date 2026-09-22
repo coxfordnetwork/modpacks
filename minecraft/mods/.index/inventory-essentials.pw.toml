@@ -1,0 +1,21 @@
+filename = 'inventoryessentials-neoforge-26.1.2-26.1.2.5.jar'
+name = 'Inventory Essentials'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'inventoryessentials-neoforge-26.1.2-26.1.2.5.jar'
+
+[download]
+hash = 'd3edb1196eda01ef9db0941b1a330e9b3762ca5b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8697002
+project-id = 368825
+
+[[x-prismlauncher-dependencies]]
+addonId = '531761'
+type = 'REQUIRED'

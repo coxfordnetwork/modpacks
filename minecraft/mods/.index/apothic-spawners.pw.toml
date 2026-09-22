@@ -1,0 +1,21 @@
+filename = 'ApothicSpawners-26.1.2-2.0.1.jar'
+name = 'Apothic Spawners'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Apothic-Spawners 26.1.2-2.0.1'
+
+[download]
+hash = 'a8a70d6bad56e716055b6ef9f673412b59625785'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8529719
+project-id = 986583
+
+[[x-prismlauncher-dependencies]]
+addonId = '283644'
+type = 'REQUIRED'

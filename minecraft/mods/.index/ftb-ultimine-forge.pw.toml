@@ -1,0 +1,25 @@
+filename = 'ftb-ultimine-neoforge-26.1.2.5.jar'
+name = 'FTB Ultimine (NeoForge)'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'FTB Ultimine Neoforge 26.1.2.5'
+
+[download]
+hash = '8f4eef282a1ede2d2a7d3f55f3ff982cffd08aa2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8231335
+project-id = 386134
+
+[[x-prismlauncher-dependencies]]
+addonId = '404465'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '314905'
+type = 'OPTIONAL'

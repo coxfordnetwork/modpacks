@@ -1,0 +1,18 @@
+filename = 'yeetusexperimentus-neoforge-99.0.0.jar'
+name = 'Yeetus Experimentus'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NEOFORGE][26.1] YeetusExperimentus 99.0.0'
+
+[download]
+hash = '7ce53fea8cd627f736bab80a1f804d163fe10608'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7830957
+project-id = 635427

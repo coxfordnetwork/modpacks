@@ -1,0 +1,18 @@
+filename = 'crystalix-4.1.0+26.1.2.jar'
+name = 'Crystalix'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Neoforge] Crystalix 4.1.0-26.1.2'
+
+[download]
+hash = 'd003d8519a6e06e3de281c73234fa1db137615ca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8229127
+project-id = 1187033

@@ -1,0 +1,21 @@
+filename = 'chisel-26.1.2.17.jar'
+name = 'Chisel 3'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'chisel-26.1.2.17.jar'
+
+[download]
+hash = 'ff7f041e02ac9f3d6c844544aceaaa9f0643d888'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8688521
+project-id = 225236
+
+[[x-prismlauncher-dependencies]]
+addonId = '1568397'
+type = 'REQUIRED'

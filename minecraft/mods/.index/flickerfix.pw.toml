@@ -1,0 +1,18 @@
+filename = 'flickerfix-26.1-7.0.0.jar'
+name = 'FlickerFix'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'flickerfix-26.1-7.0.0.jar'
+
+[download]
+hash = '18eb66ac44b6ea347398d41328105426c2e29914'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7808426
+project-id = 431430

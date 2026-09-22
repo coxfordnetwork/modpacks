@@ -1,0 +1,18 @@
+filename = 'sodium-neoforge-0.9.1+mc26.1.2.jar'
+name = 'Sodium'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Sodium 0.9.1 for NeoForge 26.1.2'
+
+[download]
+hash = 'f369407251bdeb3b91d3e67fbbc133263b0c9078'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8396481
+project-id = 394468

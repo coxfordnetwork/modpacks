@@ -1,0 +1,18 @@
+filename = 'pylons-26.1-6.0.1.jar'
+name = 'Pylons'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'pylons-26.1-6.0.1.jar'
+
+[download]
+hash = '429b958d32d9be5a2d766281d13fbd9b5bf74e02'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7963294
+project-id = 518211

@@ -1,0 +1,21 @@
+filename = 'FastFurnace-26.1.2-10.0.0.jar'
+name = 'FastFurnace'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FastFurnace 26.1.2-10.0.0'
+
+[download]
+hash = '4c7aa4d342aa18fdee72eb3ef701eb824846cf40'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8262840
+project-id = 299540
+
+[[x-prismlauncher-dependencies]]
+addonId = '283644'
+type = 'REQUIRED'

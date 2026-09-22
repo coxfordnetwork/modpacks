@@ -1,0 +1,18 @@
+filename = 'atlas_api-26.1.2-1.2.0.jar'
+name = 'Atlas API'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'atlas_api-26.1.2-1.2.0.jar'
+
+[download]
+hash = '1cc3ae69add18d462e8d0a72a6bd195ccfa53f8b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8237338
+project-id = 1145462

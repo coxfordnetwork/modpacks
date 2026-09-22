@@ -1,0 +1,21 @@
+filename = 'aether_ii-26.1.2-alpha.4.1-neoforge.jar'
+name = 'The Aether II'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'The Aether II - 26.1.2-alpha.4.1-neoforge'
+
+[download]
+hash = 'c587c4b1448ddd2698851868ec101f323ede4087'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8502033
+project-id = 223796
+
+[[x-prismlauncher-dependencies]]
+addonId = '915473'
+type = 'EMBEDDED'

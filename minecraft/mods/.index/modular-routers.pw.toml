@@ -1,0 +1,18 @@
+filename = 'modular-routers-26.1.2.2.jar'
+name = 'Modular Routers'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '"Modular Routers" 26.1.2.2 MC-26.1.2'
+
+[download]
+hash = '246b308307c4d1b06ef15db4c6f5a7ea1b927761'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8210018
+project-id = 250294

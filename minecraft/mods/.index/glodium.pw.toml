@@ -1,0 +1,18 @@
+filename = 'Glodium-26.1-1.2-neoforge.jar'
+name = 'Glodium'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Glodium-26.1-1.2-neoforge.jar'
+
+[download]
+hash = 'd2703560e45d20c6ab4152d9a0ed38f238d5bb36'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8196173
+project-id = 957920

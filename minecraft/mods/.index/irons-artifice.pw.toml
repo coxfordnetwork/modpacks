@@ -1,0 +1,21 @@
+filename = 'irons_artifice-0.0.10.jar'
+name = "Iron's Arms 'n Artifice"
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'irons_artifice-0.0.10'
+
+[download]
+hash = '68e02036b80caf6493563410583ca20342abdc4a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8673903
+project-id = 1650193
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

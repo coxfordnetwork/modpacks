@@ -1,0 +1,21 @@
+filename = 'ftb-filter-system-neoforge-26.1.2.2.jar'
+name = 'FTB Filter System'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'FTB Filter System Neoforge 26.1.2.2'
+
+[download]
+hash = '5cb35e2192f62f5421e2093106e0a78eb3d1d68f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8300191
+project-id = 943925
+
+[[x-prismlauncher-dependencies]]
+addonId = '404465'
+type = 'REQUIRED'

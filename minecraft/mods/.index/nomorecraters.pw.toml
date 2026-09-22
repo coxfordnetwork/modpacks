@@ -1,0 +1,18 @@
+filename = 'nomorecraters-1.0.0.jar'
+name = 'NoMoreCraters'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'nomorecraters-1.0.0.jar'
+
+[download]
+hash = '2c321a46fe5daabed231fe81cf8be044795e7fa3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8048925
+project-id = 1535626

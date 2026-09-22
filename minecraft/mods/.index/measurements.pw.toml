@@ -1,0 +1,18 @@
+filename = 'Measurements-neoforge-26.1-4.0.0.jar'
+name = 'Measurements'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Measurements-neoforge-26.1-4.0.0.jar'
+
+[download]
+hash = '13dd01e5346e09788746b6b5517ea102208ea399'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7819739
+project-id = 478559

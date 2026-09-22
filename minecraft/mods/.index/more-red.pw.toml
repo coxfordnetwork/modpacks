@@ -1,0 +1,25 @@
+filename = 'morered-26.1.2.3.jar'
+name = 'More Red'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'morered-26.1.2.3.jar'
+
+[download]
+hash = '14e6fa8fded900993f88770bcd87b9d6100895bd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8415352
+project-id = 387638
+
+[[x-prismlauncher-dependencies]]
+addonId = '405517'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1410798'
+type = 'EMBEDDED'

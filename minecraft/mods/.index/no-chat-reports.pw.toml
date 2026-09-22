@@ -1,0 +1,18 @@
+filename = 'NoChatReports-NEOFORGE-26.1-v2.19.0.jar'
+name = 'No Chat Reports'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'NoChatReports-NEOFORGE-26.1-v2.19.0.jar'
+
+[download]
+hash = 'cb76b1776b795f786754e32806277498b6ef6e0a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7825673
+project-id = 634062

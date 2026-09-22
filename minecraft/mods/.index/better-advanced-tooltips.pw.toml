@@ -1,0 +1,18 @@
+filename = 'better-advanced-tooltips-2601.1.0-build.9.jar'
+name = 'Better Advanced Tooltips'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'better-advanced-tooltips-2601.1.0-build.9.jar'
+
+[download]
+hash = '3bcf88a298926396a236146999d720b1784af570'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8568911
+project-id = 1637623

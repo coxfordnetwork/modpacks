@@ -1,0 +1,21 @@
+filename = 'refinedstorage-quartz-arsenal-neoforge-2.0.6.jar'
+name = 'Refined Storage - Quartz Arsenal'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v2.0.6'
+
+[download]
+hash = '7f0945d127d6b261f7da1a13e337ac6c1a02e28e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8175415
+project-id = 1230483
+
+[[x-prismlauncher-dependencies]]
+addonId = '243076'
+type = 'REQUIRED'

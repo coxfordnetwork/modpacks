@@ -1,0 +1,33 @@
+filename = 'sodium-extra-neoforge-0.9.3+mc26.1.2.jar'
+name = 'Sodium Extra'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge] Sodium Extra 0.9.3 for Minecraft 26.1.2'
+
+[download]
+hash = '49598cbb77627e1ae6f4c30e9dd19f8fcb7b6dc8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8404376
+project-id = 447673
+
+[[x-prismlauncher-dependencies]]
+addonId = '511319'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '455508'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1597214'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '394468'
+type = 'REQUIRED'

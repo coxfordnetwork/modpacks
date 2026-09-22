@@ -1,0 +1,18 @@
+filename = 'CrashAssistant-neoforge-26.1-1.11.12.jar'
+name = 'Crash Assistant'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CrashAssistant-neoforge-26.1-1.11.12.jar'
+
+[download]
+hash = '7eb4ab23781cfb2489e77dd24c19ef180c136132'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8636696
+project-id = 1154099

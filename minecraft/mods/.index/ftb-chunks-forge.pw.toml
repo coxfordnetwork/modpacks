@@ -1,0 +1,29 @@
+filename = 'ftb-chunks-neoforge-26.1.2.7.jar'
+name = 'FTB Chunks (NeoForge)'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FTB Chunks Neoforge 26.1.2.7'
+
+[download]
+hash = '23dff11c3ade1c3c18b65bf0eb69f51c650c268a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8574590
+project-id = 314906
+
+[[x-prismlauncher-dependencies]]
+addonId = '404465'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '314905'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '404468'
+type = 'REQUIRED'

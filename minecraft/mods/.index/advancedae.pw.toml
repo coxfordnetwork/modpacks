@@ -1,0 +1,29 @@
+filename = 'AdvancedAE-26.1.7.jar'
+name = 'AdvancedAE'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AdvancedAE-26.1.7'
+
+[download]
+hash = '5a2eeeadcdfa33fb277bf1c2f21487fae1366771'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8603081
+project-id = 1084104
+
+[[x-prismlauncher-dependencies]]
+addonId = '1366135'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

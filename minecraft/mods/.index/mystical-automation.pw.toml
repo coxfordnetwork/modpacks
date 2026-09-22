@@ -1,0 +1,25 @@
+filename = 'MysticalAutomation-26.1.2-2.0.6.jar'
+name = 'Mystical Automation'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MysticalAutomation-26.1.2-2.0.6.jar'
+
+[download]
+hash = 'eacf317599d8ff28f28b213a3a930ef47e1ade28'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8205860
+project-id = 1265613
+
+[[x-prismlauncher-dependencies]]
+addonId = '246640'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '272335'
+type = 'REQUIRED'

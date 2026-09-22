@@ -1,0 +1,21 @@
+filename = 'easy-piglins-neoforge-1.1.7+26.1.2.jar'
+name = 'Easy Piglins'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '[NEOFORGE][26.1.2] Easy Piglins 1.1.7+26.1.2'
+
+[download]
+hash = '191c141629cd3514f49e04356bf03aec953ca8f1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7904365
+project-id = 419372
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'

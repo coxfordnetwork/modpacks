@@ -1,0 +1,18 @@
+filename = 'cupboard-26.1-4.0.jar'
+name = 'Cupboard'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cupboard-26.1-4.0.jar'
+
+[download]
+hash = '4f9d92095cb7c53e23458fe7390ba8fff9c9a5e1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8623573
+project-id = 326652

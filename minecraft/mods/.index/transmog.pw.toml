@@ -1,0 +1,18 @@
+filename = 'transmog-neoforge-1.8.0+26.1.jar'
+name = 'Transmog'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge] Transmog 1.8.0+26.1'
+
+[download]
+hash = '6f8a27ec8bb1694c0359c9bcc77a1587fb4878dd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8125263
+project-id = 848032

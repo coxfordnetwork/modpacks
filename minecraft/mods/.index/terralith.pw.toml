@@ -1,0 +1,21 @@
+filename = 'Terralith_26.1_v2.6.1_Neoforge.jar'
+name = 'Terralith'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v2.6.1 ~ Neoforge Mod 26.1'
+
+[download]
+hash = 'eded79445f9a50631e64c9f934d16243af3fac41'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7841479
+project-id = 513688
+
+[[x-prismlauncher-dependencies]]
+addonId = '936015'
+type = 'REQUIRED'

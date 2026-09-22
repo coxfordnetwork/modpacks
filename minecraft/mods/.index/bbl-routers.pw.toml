@@ -1,0 +1,18 @@
+filename = 'routers-26.1.2-2.7.4.jar'
+name = 'BBL Routers'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BBL Routers - 26.1.2-2.7.4'
+
+[download]
+hash = '082a844977595cbb3b608d87eb0237d9a4804a9e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8560386
+project-id = 1334500

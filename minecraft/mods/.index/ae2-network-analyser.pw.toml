@@ -1,0 +1,25 @@
+filename = 'AE2NetworkAnalyzer-26.1-1.0.0-neoforge.jar'
+name = 'AE2 Network Analyser'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'AE2NetworkAnalyzer-26.1-1.0.0-neoforge.jar'
+
+[download]
+hash = '19fa103d543087b5f63c8000566e08663b431cfb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8127472
+project-id = 961856
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '957920'
+type = 'REQUIRED'

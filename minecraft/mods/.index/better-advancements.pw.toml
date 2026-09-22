@@ -1,0 +1,18 @@
+filename = 'BetterAdvancements-NeoForge-26.1.2-0.6.0.76.jar'
+name = 'Better Advancements'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BetterAdvancements-NeoForge-26.1.2-0.6.0.76.jar'
+
+[download]
+hash = '2baf28d6262ac04ed2f82e3dd82d6d2d04dc7201'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8569736
+project-id = 272515

@@ -1,0 +1,18 @@
+filename = 'charginggadgets-1.16.1.jar'
+name = 'Charging Gadgets'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ChargingGadgets-1.16.1'
+
+[download]
+hash = '674a53e9c8face667c44ac1630022127558c23e0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7983152
+project-id = 399757

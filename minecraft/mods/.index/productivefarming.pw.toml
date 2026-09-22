@@ -1,0 +1,25 @@
+filename = 'productivefarming-26.1.2-0.12.0.jar'
+name = 'Productive Farming'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'productivefarming-26.1.2-0.12.0.jar'
+
+[download]
+hash = '0f33a4c9f49a04f1b224ffd49deed60c7805f9b0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8455191
+project-id = 944463
+
+[[x-prismlauncher-dependencies]]
+addonId = '377897'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '509276'
+type = 'OPTIONAL'

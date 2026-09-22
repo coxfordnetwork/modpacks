@@ -1,0 +1,18 @@
+filename = 'allthetweaks-3.0.3.jar'
+name = 'All The Tweaks'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'allthetweaks-3.0.3.jar'
+
+[download]
+hash = '8eb95d22ddfb8ee5b01e5414f9270f02c938b825'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8048886
+project-id = 364120

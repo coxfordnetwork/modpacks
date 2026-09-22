@@ -1,0 +1,21 @@
+filename = 'netherportalfix-neoforge-26.1-26.1.0.1.jar'
+name = 'NetherPortalFix'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'netherportalfix-neoforge-26.1-26.1.0.1.jar'
+
+[download]
+hash = '2d544163ed3bafe207a8b5cdf03e9d5bc0d30f5f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7812877
+project-id = 241160
+
+[[x-prismlauncher-dependencies]]
+addonId = '531761'
+type = 'REQUIRED'

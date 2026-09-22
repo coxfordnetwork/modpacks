@@ -1,0 +1,18 @@
+filename = 'pipe_connector-neoforge-0.6.8.jar'
+name = 'Pipe Connector'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'pipe_connector-neoforge-0.6.8.jar'
+
+[download]
+hash = 'e76be406b6c7e7a71fead03c4644e18e7a718a7f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8495214
+project-id = 846168

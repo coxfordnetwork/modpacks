@@ -1,0 +1,21 @@
+filename = 'Controlling-neoforge-26.1.2-26.1.2.4.jar'
+name = 'Controlling'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Controlling-neoforge-26.1.2-26.1.2.4.jar'
+
+[download]
+hash = '772642016951359ead4d26457bf7425c8e9f323a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8199001
+project-id = 250398
+
+[[x-prismlauncher-dependencies]]
+addonId = '858542'
+type = 'REQUIRED'

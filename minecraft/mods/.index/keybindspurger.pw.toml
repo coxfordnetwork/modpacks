@@ -1,0 +1,18 @@
+filename = 'KeybindsPurger-1.4.0-neoforge-26.1.2.jar'
+name = 'KeybindsPurger'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'KeybindsPurger-1.4.0-neoforge-26.1.2.jar'
+
+[download]
+hash = 'e99059cef9465edad6faac2638e40a0e3971525e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8432717
+project-id = 1099143

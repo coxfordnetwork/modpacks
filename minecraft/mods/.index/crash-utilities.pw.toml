@@ -1,0 +1,18 @@
+filename = 'crashutilities-10.0.1.jar'
+name = 'Crash Utilities'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'crashutilities-10.0.1.jar'
+
+[download]
+hash = 'f8401d692108c2799a1fedec80a5e494ef1fdd6d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7923031
+project-id = 371813
