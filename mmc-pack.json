@@ -16,36 +16,22 @@
                     "uid": "org.lwjgl"
                 }
             ],
-            "cachedVersion": "b1.7.3",
+            "cachedVersion": "b1.8.1",
             "important": true,
             "uid": "net.minecraft",
-            "version": "b1.7.3"
+            "version": "b1.8.1"
         },
         {
-            "cachedName": "Raw Fixes (incl. TooManyItems)",
-            "uid": "org.multimc.jarmod.98a33079-1987-486d-b467-ccc80cde840f"
+            "cachedName": "ModLoader B1.8.1",
+            "uid": "org.multimc.jarmod.7c3cee18-1dfd-4b58-a79e-3ef6601c04f7"
         },
         {
-            "cachedName": "ModLoader b1.7.3",
-            "uid": "org.multimc.jarmod.980ad110-ae23-49d3-89fd-5852789deeca"
+            "cachedName": "SinglePlayerCommands 2.12.1",
+            "uid": "org.multimc.jarmod.967c8809-f1f2-46bb-9d28-f9ffb50aa468"
         },
         {
-            "cachedName": "Optifine_MT_G2",
-            "uid": "org.multimc.jarmod.dd427e0f-8ca5-4e0b-b025-885383769025",
-            "disabled": true
-        },
-        {
-            "cachedName": "Optifine_MT_G2_Patched (FOV & Distance Fix)",
-            "uid": "org.multimc.jarmod.b5a121fb-79f9-4bec-9f81-01226f7246e2",
-            "disabled": true
-        },
-        {
-            "cachedName": "SinglePlayerCommands",
-            "uid": "org.multimc.jarmod.c2513e06-8969-448c-95d9-9d6a73706695"
-        },
-        {
-            "cachedName": "Skin Fix",
-            "uid": "org.multimc.jarmod.9c7b68a7-b80d-46f0-b3c5-c7726c8cc6a9"
+            "cachedName": "TooManyItems 2011-09-27 (1.8 fix)",
+            "uid": "org.multimc.jarmod.839d1e6d-d2a8-46d1-8aec-599ff88f16e5"
         }
     ],
     "formatVersion": 1
