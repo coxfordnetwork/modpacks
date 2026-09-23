@@ -1,0 +1,10 @@
+Sep 22, 2026 10:11:12 PM ModLoader init
+FINE: ModLoader Beta 1.8.1 Initializing...
+Sep 22, 2026 10:11:12 PM ModLoader readFromClassPath
+FINER: Adding mods from C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\Beta-1.7.3-Nostalgia\.minecraft\bin\minecraft.jar
+Sep 22, 2026 10:11:12 PM ModLoader readFromClassPath
+FINER: Zip found.
+Sep 22, 2026 10:11:12 PM ModLoader addMod
+FINE: Mod Loaded: "mod_TooManyItems 1.8.1 2011-09-27" from mod_TooManyItems.class
+Sep 22, 2026 10:11:12 PM ModLoader AddAllRenderers
+FINE: Initialized
