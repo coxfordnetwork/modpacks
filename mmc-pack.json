@@ -66,20 +66,22 @@
             "uid": "org.multimc.custom.generalmods"
         },
         {
+            "cachedName": "ModLoader b1.7.3",
+            "uid": "org.multimc.jarmod.980ad110-ae23-49d3-89fd-5852789deeca"
+        },
+        {
             "cachedName": "Optifine_MT_G2",
-            "uid": "org.multimc.jarmod.dd427e0f-8ca5-4e0b-b025-885383769025"
+            "uid": "org.multimc.jarmod.dd427e0f-8ca5-4e0b-b025-885383769025",
+            "disabled": true
         },
         {
             "cachedName": "Optifine_MT_G2_Patched (FOV & Distance Fix)",
-            "uid": "org.multimc.jarmod.b5a121fb-79f9-4bec-9f81-01226f7246e2"
+            "uid": "org.multimc.jarmod.b5a121fb-79f9-4bec-9f81-01226f7246e2",
+            "disabled": true
         },
         {
             "cachedName": "SinglePlayerCommands",
             "uid": "org.multimc.jarmod.c2513e06-8969-448c-95d9-9d6a73706695"
-        },
-        {
-            "cachedName": "ModLoader b1.7.3",
-            "uid": "org.multimc.jarmod.980ad110-ae23-49d3-89fd-5852789deeca"
         },
         {
             "cachedName": "------------------------------ General Fixes ------------------------------",
