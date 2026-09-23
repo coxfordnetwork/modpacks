@@ -1,2 +1,0 @@
-resourcePacks:["vanilla","file/Better-Leaves-9.5.zip"]
-incompatibleResourcePacks:[]
