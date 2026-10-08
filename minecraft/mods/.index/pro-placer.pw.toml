@@ -1,0 +1,29 @@
+filename = 'ProPlacer-v26.1.0-mc26.1.x-Fabric.jar'
+name = 'Pro Placer'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.1.0'
+
+[download]
+hash = '9c5c689eacf141011b51634aa83ff2ca3727cb1fcd111f0cbfeeba4f2359742313ade44bfeaeab50eff6b9d6a5ee4542ac246c2116616b2d47ba9e73b4e7ed1d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LhK0LkWd/versions/xBE4TGtn/ProPlacer-v26.1.0-mc26.1.x-Fabric.jar'
+
+[update.modrinth]
+mod-id = 'LhK0LkWd'
+version = 'xBE4TGtn'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'QAGBst4M'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ohNO6lps'
+type = 'REQUIRED'

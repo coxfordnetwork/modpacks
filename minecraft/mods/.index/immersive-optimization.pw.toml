@@ -1,0 +1,21 @@
+filename = 'immersive_optimization-fabric-26.1.2-0.2.0.jar'
+name = 'Immersive Optimization'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.2.0+26.1.2'
+
+[download]
+hash = 'e8751aadf28014359562add5352163971bbdb4ab7d23ceb318645321eb5bc9f995f080f1f03666191d78896240349dc967b83500f8594806a3a588e03ff2edd7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vNZgQmjg/versions/iL9BwcjV/immersive_optimization-fabric-26.1.2-0.2.0.jar'
+
+[update.modrinth]
+mod-id = 'vNZgQmjg'
+version = 'iL9BwcjV'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

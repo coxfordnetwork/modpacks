@@ -1,0 +1,48 @@
+filename = 'kreno_fpatcher-26.2.0+26.1.jar'
+name = "KryptonReno's Fabric Patcher"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '26.1',
+    '26.1.1 rc 1',
+    '26.1.1-rc-1',
+    '26.1.1',
+    '26.1.2 rc 1',
+    '26.1.2-rc-1',
+    '26.1.2',
+    '26.2 snapshot 1',
+    '26.2 snapshot 2',
+    '26.2 snapshot 3',
+    '26.2 snapshot 4',
+    '26.2 snapshot 5',
+    '26.2-snapshot-1',
+    '26.2-snapshot-2',
+    '26.2-snapshot-3',
+    '26.2-snapshot-4',
+    '26.2-snapshot-5',
+    '26w14a'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.2.0+26.1'
+
+[download]
+hash = 'd84b499175e85d2746c08e531f4d0a2b9a2a0addefb0d019b2642db6df985317c8f8aa329fc0cc4520edd5358661ac3fdcdf2bb7ba746d74e27639a66ff90d37'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yzkasIPx/versions/ao5jVc3l/kreno_fpatcher-26.2.0%2B26.1.jar'
+
+[update.modrinth]
+mod-id = 'yzkasIPx'
+version = 'ao5jVc3l'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'MLYQ9VGP'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JkxWVYwU'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fQEb0iXm'
+type = 'OPTIONAL'

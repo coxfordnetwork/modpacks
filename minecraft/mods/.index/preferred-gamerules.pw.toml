@@ -1,0 +1,21 @@
+filename = 'preferred-gamerules-2.0.1+26.1.jar'
+name = 'Preferred Gamerules'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.1+26.1'
+
+[download]
+hash = '79b4fe051ed47d96de3e8ff5ba58cf054bb1af00975405c2d3a375fbca7fa937890c33d6f31957342fb555282183f3d832e987ac550eb18e00aae1a233ed644a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kKib77nY/versions/Ji4K5Mo3/preferred-gamerules-2.0.1%2B26.1.jar'
+
+[update.modrinth]
+mod-id = 'kKib77nY'
+version = 'Ji4K5Mo3'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'

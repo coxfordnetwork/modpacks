@@ -1,0 +1,18 @@
+filename = 'jasione-1.0.8+26.1.2-fabric.jar'
+name = 'Jasione'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26.2', '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.8+26.1.2-fabric'
+
+[download]
+hash = '5f486d84ead692ce40baf1c4966b17c0cd2c97daea06bc679297ffee3c936fa1003ef35eb8c2e924da38a8451f55b9247dec2adb75b80cc035158eaeb94d54fa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qlDkBPij/versions/TPKzcQgZ/jasione-1.0.8%2B26.1.2-fabric.jar'
+
+[update.modrinth]
+mod-id = 'qlDkBPij'
+version = 'TPKzcQgZ'

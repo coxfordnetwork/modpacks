@@ -1,0 +1,18 @@
+filename = 'NoPryingEyes-26.1.2-3.0.0-beta.jar'
+name = 'No Prying Eyes'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '3.0.0-beta'
+
+[download]
+hash = '49866d02d6a0f0ebbb7f6baacddb2d0dcd0e7eab15d947ea39d5a09bd3e1528ed3ac60233978e5576e55ca696d17323d671aead6e2b2f15e6b4b3b9ff63e7474'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LoXPgYhm/versions/9xWCcBaS/NoPryingEyes-26.1.2-3.0.0-beta.jar'
+
+[update.modrinth]
+mod-id = 'LoXPgYhm'
+version = '9xWCcBaS'

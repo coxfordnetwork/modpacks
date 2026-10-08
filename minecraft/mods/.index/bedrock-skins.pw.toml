@@ -1,0 +1,25 @@
+filename = 'BedrockSkins-26.1.2-2.0.1-fabric.jar'
+name = 'Bedrock Skins'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.1.2-2.0.1+fabric'
+
+[download]
+hash = '0df52c73c78009dc1efda8d15cf7da33e9102f51a88c3aea4a3b2d055c88e053b8673ccf31de212a0c02a831ffcd1c9666da9af43435120558179bc2f93ff5d5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/76lEgqhs/versions/u0gpw3im/BedrockSkins-26.1.2-2.0.1-fabric.jar'
+
+[update.modrinth]
+mod-id = '76lEgqhs'
+version = 'u0gpw3im'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

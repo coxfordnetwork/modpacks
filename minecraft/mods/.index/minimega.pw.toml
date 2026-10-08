@@ -1,0 +1,26 @@
+filename = 'minimega-6.5.33.jar'
+name = 'Minimega'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.5.33'
+
+[download]
+hash = '7457d8b60114674aeaee44ae4040c93ffad0b2c4ad5ac605658f81fb97590be4fa63d36bfa27e7e59423b602d7f649ebb1224f4d101c4629f833b236af020309'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/d4zJxq8p/versions/HjsmzYsx/minimega-6.5.33.jar'
+
+[update.modrinth]
+mod-id = 'd4zJxq8p'
+version = 'HjsmzYsx'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'gHvKJofA'
+type = 'OPTIONAL'
+version = 'KVjeJj3s'

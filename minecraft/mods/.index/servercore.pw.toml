@@ -1,0 +1,18 @@
+filename = 'servercore-fabric-1.5.19+26.1.2.jar'
+name = 'ServerCore'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.19+26.1.2'
+
+[download]
+hash = '056d56d74508bf34f25ded9323a721be915b9273796100ee81c4a867717364539285b4ae9749e360d6699d485e3fba0561502a8c94979684b0cf79ce8e80afcd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4WWQxlQP/versions/H6TboTA2/servercore-fabric-1.5.19%2B26.1.2.jar'
+
+[update.modrinth]
+mod-id = '4WWQxlQP'
+version = 'H6TboTA2'

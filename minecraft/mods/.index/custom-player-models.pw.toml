@@ -1,0 +1,18 @@
+filename = 'CustomPlayerModels-Fabric-26.1-0.6.27b.jar'
+name = 'Customizable Player Models'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.1v0.6.27b-fabric'
+
+[download]
+hash = 'de27c9a8c8ea25696843f3337b34b62e4dc5918b3afdf65bb5c35f9e2fed133488efd846221cb9a089205f41be4b8e1d38e2bb22e38277958b9207fb99b9d94b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/h1E7sQNL/versions/mCnoK01C/CustomPlayerModels-Fabric-26.1-0.6.27b.jar'
+
+[update.modrinth]
+mod-id = 'h1E7sQNL'
+version = 'mCnoK01C'

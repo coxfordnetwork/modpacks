@@ -1,0 +1,18 @@
+filename = 'console-adv-sounds-1.0.19.jar'
+name = 'Console Advancement Sounds'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.19'
+
+[download]
+hash = 'c269a53bfc2299145c37d34e9cf6c9bb1bdac8080b53816336f674f22fbab349c8f62c2876b02e8138299b30ab8db545b511bd94ca82862b7590b86038a42668'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/v2x7Gozv/versions/ffx3Tybt/console-adv-sounds-1.0.19.jar'
+
+[update.modrinth]
+mod-id = 'v2x7Gozv'
+version = 'ffx3Tybt'
