@@ -30,7 +30,7 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:128
-renderDistance:64
+renderDistance:128
 simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
@@ -64,8 +64,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","lambdabettergrass:default","legacy:legacy_waters","file/Hybrid Aspects","file/Legacy Worlds.zip","file/TutorialWorldAddon.zip","continuity:default","continuity:glass_pane_culling_fix","file/Transparency Fix.zip","legacy:legacy_resources","file/Legacy Titles.zip","file/Legacy Downloaded Skinpacks","file/Legacy Custom Skinpacks","c418only:c418only","Clean World Loading"]
-incompatibleResourcePacks:["collective","cpm","entity_model_features","entity_texture_features","forgeconfigapiport","globalpacks","modernfix","proplacer","simple_music_control","wrench_wrapper_backend","yet_another_config_lib_v3","file/Legacy-Modpack-Resources.zip","file/Panorama","2000s Edition Controller Tips","Community Splashes Pack","Fixed Chest Models","LCE Common Resources","Re-Console Resources"]
+resourcePacks:["vanilla","programmer_art","file/PACP_Base_Release.zip","legacy:legacy_waters","file/Legacy Panorama","file/Legacy Worlds.zip","file/TutorialWorldAddon.zip","continuity:default","continuity:glass_pane_culling_fix","file/Transparency Fix.zip","legacy:legacy_resources","file/Legacy Titles.zip","file/Legacy Downloaded Skinpacks","file/Legacy Custom Skinpacks","c418only:c418only","Clean World Loading"]
+incompatibleResourcePacks:["collective","cpm","entity_model_features","entity_texture_features","forgeconfigapiport","globalpacks","modernfix","proplacer","wrench_wrapper_backend","yet_another_config_lib_v3","file/Legacy-Modpack-Resources.zip","file/Panorama","2000s Edition Controller Tips","Community Splashes Pack","Fixed Chest Models","LCE Common Resources","Re-Console Resources"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -225,8 +225,6 @@ key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
 key_key.picturemode.open:key.keyboard.m
 key_key.proplacer.fast_placement:key.keyboard.unknown
 key_key.renderscale.options:key.keyboard.o
-key_key.simple_music_control.next_music_track:key.keyboard.m
-key_key.simple_music_control.toggle_music:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m

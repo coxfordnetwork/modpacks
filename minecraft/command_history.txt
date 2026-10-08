@@ -2,3 +2,9 @@
 //wand
 /time set day
 /gamemode creative
+//set air
+/lobby
+/gamemode creative
+//set stone
+//wand
+//set calcite

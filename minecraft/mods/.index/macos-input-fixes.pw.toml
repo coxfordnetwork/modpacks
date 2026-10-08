@@ -1,6 +1,6 @@
-filename = 'macos-input-fixes-1.13.jar'
-name = 'MacOS Input Fixes'
-side = 'client'
+filename = 'macos-input-fixes-1.16.jar'
+name = 'MacOS Input Fixes (Helper)'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [
@@ -635,17 +635,50 @@ x-prismlauncher-mc-versions = [
     '26.2-snapshot-7',
     '26.2-snapshot-8',
     '26.2',
+    '26.3 Pre-Release  1',
+    '26.3 Pre-Release  2',
+    '26.3 Pre-Release  3',
+    '26.3 rc 1',
+    '26.3 rc 2',
+    '26.3 rc 3',
+    '26.3 snapshot 1',
+    '26.3 snapshot 2',
+    '26.3 snapshot 3',
+    '26.3 snapshot 4',
+    '26.3 snapshot 5',
+    '26.3 snapshot 6',
+    '26.3 snapshot 7',
+    '26.3 snapshot 8',
+    '26.3 snapshot 9',
+    '26.3 snapshot 10',
+    '26.3-pre-1',
+    '26.3-pre-2',
+    '26.3-pre-3',
+    '26.3-rc-1',
+    '26.3-rc-2',
+    '26.3-rc-3',
+    '26.3-snapshot-1',
+    '26.3-snapshot-2',
+    '26.3-snapshot-3',
+    '26.3-snapshot-4',
+    '26.3-snapshot-5',
+    '26.3-snapshot-6',
+    '26.3-snapshot-7',
+    '26.3-snapshot-8',
+    '26.3-snapshot-9',
+    '26.3-snapshot-10',
+    '26.3',
     '26w14a'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.13'
+x-prismlauncher-version-number = '1.16'
 
 [download]
-hash = '8f6fa5310c8793e926459bb1bc1de598bb03e9b02115e3ccdd71e406000490171653edc43fe43352f1fab8b097bdc6a7c3cab178bc79c9a4be5bcdf45e292cd9'
+hash = '471186a932de9ad1db8e14a076cdf3f377321e4bac58cf76bcd0ab445de9e3470673f7c8e71c58a83c61b10e2c46c24bc8d348c3a3ffc25f9da4003b0504ead1'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/x9BrsVME/versions/Bejy0PdE/macos-input-fixes-1.13.jar'
+url = 'https://cdn.modrinth.com/data/x9BrsVME/versions/9ETC9GaF/macos-input-fixes-1.16.jar'
 
 [update.modrinth]
 mod-id = 'x9BrsVME'
-version = 'Bejy0PdE'
+version = '9ETC9GaF'
