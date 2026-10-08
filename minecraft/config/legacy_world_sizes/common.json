@@ -1,0 +1,5 @@
+{
+  "balancedSeed": true,
+  "legacyBiomeScale": "legacy_world_sizes:custom",
+  "legacyWorldSize": "legacy_world_sizes:custom"
+}

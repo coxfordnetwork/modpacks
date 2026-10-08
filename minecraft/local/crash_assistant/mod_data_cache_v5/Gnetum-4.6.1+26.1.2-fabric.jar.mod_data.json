@@ -1,0 +1,1 @@
+{"fileSize":96158,"lastModifiedMillis":1791491392183,"mod":{"jarName":"Gnetum-4.6.1+26.1.2-fabric.jar","modId":"gnetum","name":"Gnetum","version":"4.6.1+26.1.2-fabric","mixinConfigs":["gnetum.fabric.mixins.json","gnetum.mixins.json","gnetum.neoforge.mixins.json"],"jarJarMods":[],"curseForgeHash":814126468,"modrinthHash":"0c0a268837911c74b81a0823e3b216b4c0c42a55"}}

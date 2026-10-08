@@ -1,1 +1,19 @@
-{"icon":"legacy:comparisons/egyptian/icon","background":"legacy:comparisons/egyptian/comparison","packs":["variants-cit:assetgen","vanilla","fabric","legacy:legacy_waters","file/Legacy-Modpack-Resources.zip","file/Egyptian Mythology Mash-up.zip"],"id":"egyptian","name":{"translate":"legacy.menu.albums.resource.egyptian"},"description":{"translate":"legacy.menu.albums.resource.egyptian.description"}}
+{
+  "id": "egyptian",
+  "name": {
+    "translate": "legacy.menu.albums.resource.egyptian"
+  },
+  "description": {
+    "translate": "legacy.menu.albums.resource.egyptian.description"
+  },
+  "icon": "legacy:comparisons/egyptian/icon",
+  "background": "legacy:comparisons/egyptian/comparison",
+  "packs": [
+    "variants-cit:assetgen",
+    "vanilla",
+    "fabric",
+    "legacy:legacy_waters",
+    "file/Legacy-Modpack-Resources.zip",
+    "file/Egyptian Mythology Mash-up.zip"
+  ]
+}

@@ -1,1 +1,20 @@
-{"icon":"legacy:comparisons/festive/icon","background":"legacy:comparisons/festive/comparison","packs":["variants-cit:assetgen","vanilla","fabric","legacy:legacy_waters","file/Legacy-Modpack-Resources.zip","file/Festive Mash-up.zip","file/Festive+Continued.zip"],"id":"festive","name":{"translate":"legacy.menu.albums.resource.festive"},"description":{"translate":"legacy.menu.albums.resource.festive.description"}}
+{
+  "id": "festive",
+  "name": {
+    "translate": "legacy.menu.albums.resource.festive"
+  },
+  "description": {
+    "translate": "legacy.menu.albums.resource.festive.description"
+  },
+  "icon": "legacy:comparisons/festive/icon",
+  "background": "legacy:comparisons/festive/comparison",
+  "packs": [
+    "variants-cit:assetgen",
+    "vanilla",
+    "fabric",
+    "legacy:legacy_waters",
+    "file/Legacy-Modpack-Resources.zip",
+    "file/Festive Mash-up.zip",
+    "file/Festive+Continued.zip"
+  ]
+}

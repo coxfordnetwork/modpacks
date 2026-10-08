@@ -1,0 +1,11 @@
+{
+  "achievementToast": "xbox_360",
+  "controllerDiagram": "xbox_360",
+  "controllerKeyboard": "xbox_360",
+  "legacyControls": false,
+  "legacyPotionCreativeStorage": false,
+  "legacyUiProfile": "l4j",
+  "oldGlassRendering": false,
+  "tu1Sky": false,
+  "twoDHeads": false
+}

@@ -1,1 +1,19 @@
-{"icon":"legacy:comparisons/fallout/icon","background":"legacy:comparisons/fallout/comparison","packs":["variants-cit:assetgen","vanilla","fabric","legacy:legacy_waters","file/Legacy-Modpack-Resources.zip","file/FalloutMash-upPack.zip"],"id":"fallout","name":{"translate":"legacy.menu.albums.resource.fallout"},"description":{"translate":"legacy.menu.albums.resource.fallout.description"}}
+{
+  "id": "fallout",
+  "name": {
+    "translate": "legacy.menu.albums.resource.fallout"
+  },
+  "description": {
+    "translate": "legacy.menu.albums.resource.fallout.description"
+  },
+  "icon": "legacy:comparisons/fallout/icon",
+  "background": "legacy:comparisons/fallout/comparison",
+  "packs": [
+    "variants-cit:assetgen",
+    "vanilla",
+    "fabric",
+    "legacy:legacy_waters",
+    "file/Legacy-Modpack-Resources.zip",
+    "file/FalloutMash-upPack.zip"
+  ]
+}

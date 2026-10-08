@@ -1,1 +1,17 @@
-{"icon":"legacy:comparisons/ashen/icon","packs":["variants-cit:assetgen","vanilla","fabric","file/Ashen_16x.zip","file/Legacy-Modpack-Resources.zip"],"id":"ashen","name":{"translate":"legacy.menu.albums.resource.ashen"},"description":{"translate":"legacy.menu.albums.resource.ashen.description"}}
+{
+  "id": "ashen",
+  "name": {
+    "translate": "legacy.menu.albums.resource.ashen"
+  },
+  "description": {
+    "translate": "legacy.menu.albums.resource.ashen.description"
+  },
+  "icon": "legacy:comparisons/ashen/icon",
+  "packs": [
+    "variants-cit:assetgen",
+    "vanilla",
+    "fabric",
+    "file/Ashen_16x.zip",
+    "file/Legacy-Modpack-Resources.zip"
+  ]
+}

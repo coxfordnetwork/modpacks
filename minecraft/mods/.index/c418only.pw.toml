@@ -1,0 +1,21 @@
+filename = 'c418only-1.1.0+26.x.jar'
+name = 'c418only'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26.2', '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0+26.x'
+
+[download]
+hash = '82c6be03394dc56d1cec2760e4b1a327008d1e3b716422b741bb237548910f86d85907c33414627e9b5e1439fc95693b879f793b66b588b1caae8afd6e91d573'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/snRPSpjy/versions/6BuWCnkv/c418only-1.1.0%2B26.x.jar'
+
+[update.modrinth]
+mod-id = 'snRPSpjy'
+version = '6BuWCnkv'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

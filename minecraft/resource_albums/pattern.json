@@ -1,1 +1,19 @@
-{"icon":"legacy:comparisons/pattern/icon","background":"legacy:comparisons/pattern/comparison","packs":["variants-cit:assetgen","vanilla","fabric","legacy:legacy_waters","file/Legacy-Modpack-Resources.zip","file/Pattern Texture Pack.zip"],"id":"pattern","name":{"translate":"legacy.menu.albums.resource.pattern"},"description":{"translate":"legacy.menu.albums.resource.pattern.description"}}
+{
+  "id": "pattern",
+  "name": {
+    "translate": "legacy.menu.albums.resource.pattern"
+  },
+  "description": {
+    "translate": "legacy.menu.albums.resource.pattern.description"
+  },
+  "icon": "legacy:comparisons/pattern/icon",
+  "background": "legacy:comparisons/pattern/comparison",
+  "packs": [
+    "variants-cit:assetgen",
+    "vanilla",
+    "fabric",
+    "legacy:legacy_waters",
+    "file/Legacy-Modpack-Resources.zip",
+    "file/Pattern Texture Pack.zip"
+  ]
+}

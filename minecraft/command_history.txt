@@ -1,0 +1,4 @@
+/gamemode creative
+//wand
+/time set day
+/gamemode creative

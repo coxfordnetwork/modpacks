@@ -1,1 +1,19 @@
-{"icon":"legacy:comparisons/city/icon","background":"legacy:comparisons/city/comparison","packs":["variants-cit:assetgen","vanilla","fabric","legacy:legacy_waters","file/Legacy-Modpack-Resources.zip","file/City Texture Pack.zip"],"id":"city","name":{"translate":"legacy.menu.albums.resource.city"},"description":{"translate":"legacy.menu.albums.resource.city.description"}}
+{
+  "id": "city",
+  "name": {
+    "translate": "legacy.menu.albums.resource.city"
+  },
+  "description": {
+    "translate": "legacy.menu.albums.resource.city.description"
+  },
+  "icon": "legacy:comparisons/city/icon",
+  "background": "legacy:comparisons/city/comparison",
+  "packs": [
+    "variants-cit:assetgen",
+    "vanilla",
+    "fabric",
+    "legacy:legacy_waters",
+    "file/Legacy-Modpack-Resources.zip",
+    "file/City Texture Pack.zip"
+  ]
+}

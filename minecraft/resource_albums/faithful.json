@@ -1,1 +1,18 @@
-{"icon":"legacy:comparisons/faithful/icon","packs":["variants-cit:assetgen","vanilla","fabric","file/Faithful 32x - 26.1.zip","file/faithful-legacy.zip","file/Legacy-Modpack-Resources.zip"],"id":"faithful","name":{"translate":"legacy.menu.albums.resource.faithful"},"description":{"translate":"legacy.menu.albums.resource.faithful.description"}}
+{
+  "id": "faithful",
+  "name": {
+    "translate": "legacy.menu.albums.resource.faithful"
+  },
+  "description": {
+    "translate": "legacy.menu.albums.resource.faithful.description"
+  },
+  "icon": "legacy:comparisons/faithful/icon",
+  "packs": [
+    "variants-cit:assetgen",
+    "vanilla",
+    "fabric",
+    "file/Faithful 32x - 26.1.zip",
+    "file/faithful-legacy.zip",
+    "file/Legacy-Modpack-Resources.zip"
+  ]
+}

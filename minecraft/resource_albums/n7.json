@@ -1,1 +1,19 @@
-{"icon":"legacy:comparisons/n7/icon","background":"legacy:comparisons/n7/comparison","packs":["variants-cit:assetgen","vanilla","fabric","legacy:legacy_waters","file/Legacy-Modpack-Resources.zip","file/Mass Effect.zip"],"id":"n7","name":{"translate":"legacy.menu.albums.resource.n7"},"description":{"translate":"legacy.menu.albums.resource.n7.description"}}
+{
+  "id": "n7",
+  "name": {
+    "translate": "legacy.menu.albums.resource.n7"
+  },
+  "description": {
+    "translate": "legacy.menu.albums.resource.n7.description"
+  },
+  "icon": "legacy:comparisons/n7/icon",
+  "background": "legacy:comparisons/n7/comparison",
+  "packs": [
+    "variants-cit:assetgen",
+    "vanilla",
+    "fabric",
+    "legacy:legacy_waters",
+    "file/Legacy-Modpack-Resources.zip",
+    "file/Mass Effect.zip"
+  ]
+}

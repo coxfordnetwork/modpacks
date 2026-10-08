@@ -1,1 +1,19 @@
-{"icon":"legacy:comparisons/caribbean/icon","background":"legacy:comparisons/caribbean/comparison","packs":["variants-cit:assetgen","vanilla","fabric","legacy:legacy_waters","file/Legacy-Modpack-Resources.zip","file/Pirates Of The Caribbean Mash-up.zip"],"id":"caribbean","name":{"translate":"legacy.menu.albums.resource.caribbean"},"description":{"translate":"legacy.menu.albums.resource.caribbean.description"}}
+{
+  "id": "caribbean",
+  "name": {
+    "translate": "legacy.menu.albums.resource.caribbean"
+  },
+  "description": {
+    "translate": "legacy.menu.albums.resource.caribbean.description"
+  },
+  "icon": "legacy:comparisons/caribbean/icon",
+  "background": "legacy:comparisons/caribbean/comparison",
+  "packs": [
+    "variants-cit:assetgen",
+    "vanilla",
+    "fabric",
+    "legacy:legacy_waters",
+    "file/Legacy-Modpack-Resources.zip",
+    "file/Pirates Of The Caribbean Mash-up.zip"
+  ]
+}

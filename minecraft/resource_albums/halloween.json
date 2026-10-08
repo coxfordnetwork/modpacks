@@ -1,1 +1,19 @@
-{"icon":"legacy:comparisons/halloween_2015/icon","background":"legacy:comparisons/halloween_2015/comparison","packs":["variants-cit:assetgen","vanilla","fabric","file/Legacy-Modpack-Resources.zip","file/Halloween Mash-up.zip","file/Halloween+Continued.zip"],"id":"halloween","name":{"translate":"legacy.menu.albums.resource.halloween"},"description":{"translate":"legacy.menu.albums.resource.halloween_2015.description"}}
+{
+  "id": "halloween",
+  "name": {
+    "translate": "legacy.menu.albums.resource.halloween"
+  },
+  "description": {
+    "translate": "legacy.menu.albums.resource.halloween_2015.description"
+  },
+  "icon": "legacy:comparisons/halloween_2015/icon",
+  "background": "legacy:comparisons/halloween_2015/comparison",
+  "packs": [
+    "variants-cit:assetgen",
+    "vanilla",
+    "fabric",
+    "file/Legacy-Modpack-Resources.zip",
+    "file/Halloween Mash-up.zip",
+    "file/Halloween+Continued.zip"
+  ]
+}
