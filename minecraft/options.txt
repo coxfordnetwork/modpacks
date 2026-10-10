@@ -8,7 +8,7 @@ entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:0.2
+fov:0.1
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
@@ -64,7 +64,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla"]
+resourcePacks:["vanilla","file/VanillaTweaks_r883182_MC26.3.x.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

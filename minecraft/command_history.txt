@@ -1,0 +1,13 @@
+/gamemode creative
+/spawn
+/clear
+/time set 0
+/time set 12000
+/time set 1200
+/time set 6000
+/time set noon
+/gamerule advance_time false
+/gamemode creative
+/difficulty peaceful
+/gamerule spawn_mobs false
+/spawn
