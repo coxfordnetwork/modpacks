@@ -66,7 +66,7 @@ highContrastBlockOutline:false
 narratorHotkey:true
 resourcePacks:["vanilla","file/VanillaTweaks_r883182_MC26.3.x.zip"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:51.222.147.177:25609
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0
