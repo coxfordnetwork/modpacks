@@ -1,0 +1,25 @@
+filename = 'simplefog-fabric-26.1-2.0.15.jar'
+name = 'Simple Fog Control'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26.2', '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.15'
+
+[download]
+hash = '3318f7206d719c9c8aed75e85f461c8d0e412e8340be7ed6807b11f7778c25b77ea3e06c3d47676b3162fd6f3c05275ce2f113c3bf23c04943f2523520596d18'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Glp1bwYc/versions/uG3up0EF/simplefog-fabric-26.1-2.0.15.jar'
+
+[update.modrinth]
+mod-id = 'Glp1bwYc'
+version = 'uG3up0EF'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
