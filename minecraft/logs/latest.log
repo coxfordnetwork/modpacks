@@ -1,483 +1,541 @@
-[19:15:27] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.5
-[19:15:27] [main/INFO]: Loading 88 mods:
-	- betterf3 19.0.0
-	- bobby 5.2.15+mc26.2
+[21:45:55] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.19.5
+[21:45:55] [ForkJoinPool-1-worker-9/WARN]: Mod dev_isxander_sdl_sdl-backend-ffm uses the version release-3.4.14-7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'release'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:45:55] [ForkJoinPool-1-worker-12/WARN]: Mod dev_isxander_sdl_sdl-api uses the version release-3.4.14-7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'release'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:45:55] [main/INFO]: Loading 117 mods:
+	- betterclouds 1.15.0-beta.6+26.3-fabric
+	   \-- mixinsquared 0.3.7-beta.3
+	- betterf3 20.0.0
+	- bobby 5.2.16+mc26.3
 	   |-- com_typesafe_config 1.4.2
-	   |-- fabric-api-base 2.0.4+ece063239e
-	   |-- fabric-command-api-v2 3.1.0+00cb03469e
+	   |-- fabric-api-base 2.0.6+fcdff87f5d
+	   |-- fabric-command-api-v2 3.1.2+fcdff87f5d
 	   |-- io_leangen_geantyref_geantyref 1.3.13
 	   |-- org_spongepowered_configurate-core 4.1.2
 	   \-- org_spongepowered_configurate-hocon 4.1.2
-	- cloth-config 26.2.155
+	- c418only 1.1.0+26.x
+	- cloth-config 26.3.159
 	   \-- cloth-basic-math 0.6.1
-	- continuity 3.0.1+26.2
-	- entityculling 1.11.2
-	   |-- transition 1.0.25
+	- collective 8.59
+	- continuity 3.0.1+26.3
+	- controlify 3.5.3+mc26.3
+	   |-- dev_isxander_sdl_sdl-api release-3.4.14-7
+	   |-- dev_isxander_sdl_sdl-backend-ffm release-3.4.14-7
+	   \-- dev_isxander_steamdeck4j 1.1.7
+	- entityculling 1.11.3
 	   \-- trender 1.0.17
-	- fabric-api 0.161.0+26.2
-	   |-- fabric-advancement-api-v1 1.0.0+58719a3b9e
-	   |-- fabric-api-base 2.0.4+ece063239e
-	   |-- fabric-api-lookup-api-v1 2.0.18+11e1c9a39e
-	   |-- fabric-biome-api-v1 18.0.6+c7bd5b8e9e
-	   |-- fabric-block-api-v1 3.1.0+53515aab9e
-	   |-- fabric-block-getter-api-v2 2.0.7+ec56b6019e
-	   |-- fabric-content-registries-v0 11.3.2+37b1aa249e
-	   |-- fabric-convention-tags-v2 4.7.1+1f023a9e9e
-	   |-- fabric-crash-report-info-v1 1.0.5+086d547a9e
-	   |-- fabric-creative-tab-api-v1 5.0.15+6468574f9e
-	   |-- fabric-data-attachment-api-v1 2.2.19+515ac5339e
-	   |-- fabric-data-generation-api-v1 25.6.0+c0da0b829e
-	   |-- fabric-debug-api-v1 1.0.2+c792624d9e
-	   |-- fabric-dimensions-v1 5.1.12+515ac5339e
-	   |-- fabric-entity-events-v1 5.0.5+06488ac19e
-	   |-- fabric-events-interaction-v0 5.2.8+515ac5339e
-	   |-- fabric-game-rule-api-v1 4.0.8+46a6d00c9e
-	   |-- fabric-item-api-v1 14.5.0+c68f6cbe9e
-	   |-- fabric-key-mapping-api-v1 2.0.5+e2bdee789e
-	   |-- fabric-lifecycle-events-v1 4.1.4+29b6eb019e
-	   |-- fabric-loot-api-v3 3.0.17+06488ac19e
-	   |-- fabric-menu-api-v1 2.0.17+086d547a9e
-	   |-- fabric-message-api-v1 7.0.8+bb2ed3f79e
-	   |-- fabric-model-loading-api-v1 8.0.17+c80601bb9e
-	   |-- fabric-networking-api-v1 6.3.4+2989c6a09e
-	   |-- fabric-object-builder-api-v1 24.1.1+6fcd5f039e
-	   |-- fabric-particles-v1 5.0.19+d1756aa99e
-	   |-- fabric-permission-api-v1 1.0.5+e442d8d09e
-	   |-- fabric-recipe-api-v1 9.0.22+11e1c9a39e
-	   |-- fabric-registry-sync-v0 7.1.1+c7bd5b8e9e
-	   |-- fabric-renderer-api-v1 14.1.4+2b0d8a229e
-	   |-- fabric-renderer-indigo 9.1.4+2b0d8a229e
-	   |-- fabric-rendering-fluids-v1 6.0.4+06488ac19e
-	   |-- fabric-rendering-v1 25.3.3+515ac5339e
-	   |-- fabric-resource-conditions-api-v1 6.1.0+10e9a28b9e
-	   |-- fabric-resource-loader-v0 3.3.20+4fc5413f9e
-	   |-- fabric-resource-loader-v1 2.0.13+9edec1269e
-	   |-- fabric-screen-api-v1 5.2.1+5087f8249e
-	   |-- fabric-serialization-api-v1 2.0.4+11a26f319e
-	   |-- fabric-sound-api-v1 2.0.5+11a26f319e
-	   |-- fabric-tag-api-v1 2.1.4+515ac5339e
-	   |-- fabric-transfer-api-v1 8.0.13+11dbb7d79e
-	   \-- fabric-transitive-access-wideners-v1 8.1.4+67c847259e
+	- fabric-api 0.164.0+26.3
+	   |-- fabric-advancement-api-v1 1.0.1+38c7a2d55d
+	   |-- fabric-api-lookup-api-v1 2.0.24+3434d6d95d
+	   |-- fabric-biome-api-v1 20.1.0+c6aa69a85d
+	   |-- fabric-block-api-v1 3.1.0+0ae6f9115d
+	   |-- fabric-block-getter-api-v2 2.0.9+3434d6d95d
+	   |-- fabric-content-registries-v0 15.0.6+74ed1ea55d
+	   |-- fabric-convention-tags-v2 4.10.4+899e30535d
+	   |-- fabric-crash-report-info-v1 1.0.7+fcdff87f5d
+	   |-- fabric-creative-tab-api-v1 5.0.22+fcdff87f5d
+	   |-- fabric-data-attachment-api-v1 2.2.32+b9b88df45d
+	   |-- fabric-data-generation-api-v1 27.4.1+501c7ef55d
+	   |-- fabric-debug-api-v1 1.0.5+5af7744b5d
+	   |-- fabric-dimensions-v1 5.1.20+5af7744b5d
+	   |-- fabric-entity-events-v1 6.0.4+3434d6d95d
+	   |-- fabric-events-interaction-v0 5.3.8+b9b88df45d
+	   |-- fabric-game-rule-api-v1 4.0.10+3434d6d95d
+	   |-- fabric-item-api-v1 14.8.0+d1c0d72b5d
+	   |-- fabric-key-mapping-api-v1 2.0.8+3434d6d95d
+	   |-- fabric-lifecycle-events-v1 4.1.9+ffef5f675d
+	   |-- fabric-loot-api-v3 4.0.9+4068fd645d
+	   |-- fabric-menu-api-v1 2.0.29+ed66f0a35d
+	   |-- fabric-message-api-v1 7.0.10+3434d6d95d
+	   |-- fabric-model-loading-api-v1 8.0.36+fcdff87f5d
+	   |-- fabric-networking-api-v1 6.3.10+5c1fee4d5d
+	   |-- fabric-object-builder-api-v1 24.1.11+e2f63d3e5d
+	   |-- fabric-particles-v1 5.0.26+3434d6d95d
+	   |-- fabric-permission-api-v1 1.0.8+fcdff87f5d
+	   |-- fabric-recipe-api-v1 10.0.10+b9b88df45d
+	   |-- fabric-registry-sync-v0 8.0.3+1ca9f6365d
+	   |-- fabric-renderer-api-v1 17.0.16+79385d0b5d
+	   |-- fabric-renderer-indigo 9.1.24+b9d63e335d
+	   |-- fabric-rendering-fluids-v1 6.0.6+3434d6d95d
+	   |-- fabric-rendering-v1 27.1.0+5af7744b5d
+	   |-- fabric-resource-conditions-api-v1 6.2.0+0d124ae85d
+	   |-- fabric-resource-loader-v0 3.3.27+4fc5413f5d
+	   |-- fabric-resource-loader-v1 3.1.0+5af7744b5d
+	   |-- fabric-screen-api-v1 5.2.4+48607d035d
+	   |-- fabric-serialization-api-v1 2.0.7+74ed1ea55d
+	   |-- fabric-sound-api-v1 2.0.7+3434d6d95d
+	   |-- fabric-tag-api-v1 2.1.11+fcdff87f5d
+	   |-- fabric-transfer-api-v1 8.0.25+fcdff87f5d
+	   \-- fabric-transitive-access-wideners-v1 8.1.17+e2f63d3e5d
 	- fabricloader 0.19.5
 	   \-- mixinextras 0.5.5
-	- fallingleaves 2.0.7
 	- ferritecore 9.0.0
-	- iris 1.11.4+mc26.2
+	- iris 1.11.7+mc26.3
 	   |-- io_github_douira_glsl-transformer 3.0.0-pre3
 	   |-- org_anarres_jcpp 1.4.14
 	   \-- org_antlr_antlr4-runtime 4.13.1
 	- java 25
-	- jei 30.35.0.223
-	- lambdynlights 4.12.4+26.2
-	   |-- lambdynlights_api 4.12.4+26.2
+	- jei 31.16.0.86
+	- lambdynlights 4.13.0+26.3
+	   |-- lambdynlights_api 4.13.0+26.3
 	   |    |-- yumi_commons_collections 2.0.0
 	   |    |-- yumi_commons_core 2.0.0
 	   |    \-- yumi_commons_event 2.0.0
-	   |-- pride 1.7.0+26.2
-	   |-- spruceui 11.0.0+26.2
-	   \-- yumi_mc_core 1.1.1+26.2
+	   |-- pride 1.8.0+26.3
+	   |-- spruceui 12.0.0+26.3
+	   \-- yumi_mc_core 1.1.3+26.2
 	        |-- yumi_commons_collections 2.0.0
 	        |-- yumi_commons_core 2.0.0
 	        \-- yumi_commons_event 2.0.0
-	- lithium 0.25.3+mc26.2
-	- mezz_config 0.6.3
-	- minecraft 26.2
-	- modmenu 20.0.2
-	   \-- fabric-api-base 2.0.4+ece063239e
+	- lithium 0.26.2+mc26.3
+	- mezz_config 0.6.8
+	- minecraft 26.3
+	- modmenu 21.0.0
+	   \-- fabric-api-base 2.0.6+fcdff87f5d
 	- mousetweaks 2.31
-	- placeholder-api 3.1.0-beta.1+26.2
-	- skinlayers3d 1.11.3
-	   |-- transition 1.0.25
+	- placeholder-api 3.2.0+26.3
+	- simplefog 2.0.15
+	- skinlayers3d 1.11.4
+	   |-- transition 1.0.27
 	   \-- trender 1.0.17
-	- sodium 0.9.2+mc26.2
-	- sodium-extra 0.9.4+mc26.2
-	   \-- me_flashyreese_mods_greenlight-api 0.1.0+mc26.2
-	- xaerominimap 26.5.1
-	   \-- xaerolib 1.7.7
-	- xaeroworldmap 1.46.1
-	   \-- xaerolib 1.7.7
-[19:15:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/esteban/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[19:15:28] [main/WARN]: Reference map 'entityculling.refmap.mixins.json' for entityculling.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:15:28] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
-[19:15:28] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
-[19:15:28] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
-[19:15:28] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
-[19:15:28] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
-[19:15:28] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
-[19:15:28] [main/INFO]: Loaded configuration file for Lithium: 171 options available, 0 override(s) found.
-[19:15:28] [main/WARN]: Reference map 'skinlayers3d.refmap.mixins.json' for skinlayers3d.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:15:28] [main/INFO]: Loaded configuration file for Sodium: 37 options available, 1 override(s) found
-[19:15:28] [main/INFO]: Loaded configuration file for Sodium Extra: 26 options available, 0 override(s) found
-[19:15:28] [main/WARN]: Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:15:28] [main/WARN]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:15:28] [main/WARN]: Error loading class: de/siphalor/amecs/key_modifiers/impl/AmecsKeyModifiersEarlyInit (java.lang.ClassNotFoundException: de/siphalor/amecs/key_modifiers/impl/AmecsKeyModifiersEarlyInit)
-[19:15:28] [main/WARN]: @Mixin target de.siphalor.amecs.key_modifiers.impl.AmecsKeyModifiersEarlyInit was not found jei.mixins.json:AmecsKeyModifiersEarlyInitMixin from mod jei
-[19:15:29] [main/WARN]: Error loading class: traben/entity_model_features/models/parts/EMFModelPart (java.lang.ClassNotFoundException: traben/entity_model_features/models/parts/EMFModelPart)
-[19:15:29] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[19:15:29] [main/INFO]: Searching for graphics cards...
-[19:15:29] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 3060', adapterType=0x0000030B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\nvmdi.inf_amd64_3990df11758b8744\nvoglv64.dll', openglIcdVersion=32.0.16.1714}
-[19:15:29] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
-[19:15:29] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
-[19:15:29] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
-[19:15:30] [Datafixer Bootstrap #0/INFO]: 295 Datafixer optimizations took 192 milliseconds
-[19:15:33] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[19:15:33] [Render thread/INFO]: Setting user: ElectroBleach
-[19:15:33] [Render thread/INFO]: [BetterF3] Loading...
-[19:15:33] [Render thread/INFO]: [BetterF3] All done!
-[19:15:33] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[19:15:33] [Render thread/INFO]: Registering leaf particles.
-[19:15:33] [Render thread/INFO]: Sending ConfigManager...
-[19:15:33] [Render thread/INFO]: Sending ConfigManager took 585.2 microseconds
-[19:15:33] [Render thread/INFO]: Checking mod updates...
-[19:15:33] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
-[19:15:33] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
-[19:15:33] [Render thread/INFO]: [STDOUT]: [TRender] Initializing Client...
-[19:15:33] [Render thread/INFO]: Registering common data for channel xaerolib:main!
-[19:15:33] [Render thread/INFO]: Registering client data for channel xaerolib:main!
-[19:15:33] [Render thread/INFO]: Loading primary common config for channel xaerolib:main!
-[19:15:33] [Render thread/INFO]: Loading server config profiles for channel xaerolib:main!
-[19:15:33] [Render thread/INFO]: Loading primary client config for channel xaerolib:main!
-[19:15:33] [Render thread/INFO]: Loading client config profiles for channel xaerolib:main!
-[19:15:33] [Render thread/INFO]: Loading XaeroLib common 1/2!
-[19:15:33] [Render thread/INFO]: Loading XaeroLib client 1/3!
-[19:15:34] [Download-2/INFO]: Update available for 'betterf3@19.0.0', (-> 19.0.1)
-[19:15:34] [Download-2/INFO]: Update available for 'xaerominimap@26.5.1', (-> fabric-26.2-26.6.0)
-[19:15:34] [Download-2/INFO]: Update available for 'modmenu@20.0.2', (-> 20.0.3)
-[19:15:34] [Download-2/INFO]: Update available for 'entityculling@1.11.2', (-> 1.11.3)
-[19:15:34] [Download-2/INFO]: Update available for 'xaeroworldmap@1.46.1', (-> fabric-26.2-1.47.0)
-[19:15:34] [Render thread/WARN]: io exception while checking patreon: Online mod data expired! Date: Wed Oct 07 06:36:48 EDT 2026
-[19:15:34] [Render thread/INFO]: Xaero's Minimap: World Map found!
-[19:15:34] [Render thread/INFO]: No Optifine!
-[19:15:34] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
-[19:15:34] [Render thread/INFO]: Xaero's Minimap: Iris found!
-[19:15:34] [Render thread/INFO]: Registering common data for channel xaerominimap:main!
-[19:15:34] [Render thread/INFO]: Registering client data for channel xaerominimap:main!
-[19:15:34] [Render thread/INFO]: Loading primary common config for channel xaerominimap:main!
-[19:15:34] [Render thread/INFO]: Loading server config profiles for channel xaerominimap:main!
-[19:15:34] [Render thread/INFO]: Loading primary client config for channel xaerominimap:main!
-[19:15:34] [Render thread/INFO]: Loading client config profiles for channel xaerominimap:main!
-[19:15:34] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/3
-[19:15:34] [Render thread/INFO]: Backing up Xaero's minimap data...
-[19:15:34] [Render thread/INFO]: Done backing up Xaero's minimap data!
-[19:15:34] [Render thread/INFO]: Registering common data for channel xaeroworldmap:main!
-[19:15:34] [Render thread/INFO]: Registering client data for channel xaeroworldmap:main!
-[19:15:34] [Render thread/INFO]: Loading primary common config for channel xaeroworldmap:main!
-[19:15:34] [Render thread/INFO]: Loading server config profiles for channel xaeroworldmap:main!
-[19:15:34] [Render thread/INFO]: Loading primary client config for channel xaeroworldmap:main!
-[19:15:34] [Render thread/INFO]: Loading client config profiles for channel xaeroworldmap:main!
-[19:15:34] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/3
-[19:15:34] [Render thread/INFO]: Initializing mods (entrypoint yumi:init)...
-[19:15:34] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
-[19:15:34] [Render thread/INFO]: [LambDynLights] Configuration loaded.
-[19:15:34] [Render thread/INFO]: Backend library: LWJGL version 3.4.1-snapshot
-[19:15:34] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
-[19:15:34] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
-[19:15:35] [Render thread/INFO]: Debug functionality is disabled.
-[19:15:35] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
-[19:15:35] [Render thread/WARN]: Unable to resolve shader pack option menu element "<profile2>" defined in shaders.properties
-[19:15:35] [Render thread/WARN]: Unable to resolve shader pack option menu element "<profile2>" defined in shaders.properties
-[19:15:35] [Render thread/INFO]: Profile: Custom (+55 options changed by user)
-[19:15:36] [Render thread/INFO]: Using shaderpack: ComplementaryReimagined_r5.9 + EuphoriaPatches_1.10.0
-[19:15:36] [Render thread/INFO]: Using graphics backend OpenGL, using drivers: 3.3.0 NVIDIA 617.14
-[19:15:36] [Render thread/INFO]: Using graphics device: NVIDIA GeForce RTX 3060/PCIe/SSE2 (NVIDIA Corporation)
-[19:15:36] [Render thread/INFO]: Using graphics device extensions: GL_ARB_multi_draw_indirect, GL_ARB_shader_draw_parameters, GL_ARB_base_instance, GL_KHR_debug, GL_ARB_draw_indirect, GL_ARB_clip_control, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
-[19:15:36] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Custom Skinpacks', ignoring
-[19:15:36] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Downloaded Skinpacks', ignoring
-[19:15:36] [Render thread/INFO]: Hardware information:
-[19:15:36] [Render thread/INFO]: CPU: 12x AMD Ryzen 5 7600X 6-Core Processor 
-[19:15:36] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 3060/PCIe/SSE2 (Supports OpenGL 3.3.0 NVIDIA 617.14)
-[19:15:36] [Render thread/INFO]: OS: Windows 10 (10.0)
-[19:15:36] [Render thread/INFO]: Reloading ResourceManager: vanilla, betterf3, bobby, cloth-config, continuity, entityculling, fabric-advancement-api-v1, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-permission-api-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, iris, jei, lambdynlights, lambdynlights_api, lithium, mezz_config, modmenu, placeholder-api, pride, skinlayers3d, sodium, sodium-extra, spruceui, trender, xaerolib, xaerominimap, xaeroworldmap
-[19:15:36] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/3
-[19:15:36] [Worker-Main-6/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
-[19:15:36] [Worker-Main-10/INFO]: Found unifont_pua-17.0.01.hex, loading
-[19:15:36] [Worker-Main-9/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
-[19:15:37] [Render thread/ERROR]: io exception while checking versions: Online mod data expired! Date: Wed Oct 07 06:36:48 EDT 2026
-[19:15:37] [Render thread/INFO]: Registered player tracker system: map_synced
-[19:15:37] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
-[19:15:37] [Render thread/INFO]: Registered player tracker system: minimap_synced
-[19:15:37] [Render thread/INFO]: No Optifine!
-[19:15:37] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
-[19:15:37] [Render thread/INFO]: Xaero's World Map: Iris found!
-[19:15:37] [Render thread/INFO]: Loading Xaero's World Map - Stage 3/3
-[19:15:37] [Render thread/INFO]: New world map region cache hash code: -1698990479
-[19:15:37] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/3
-[19:15:37] [Render thread/WARN]: io exception while checking versions: Online mod data expired! Date: Wed Oct 07 06:36:48 EDT 2026
-[19:15:37] [Render thread/INFO]: Registered player tracker system: minimap_synced
-[19:15:37] [Render thread/INFO]: Loading Xaero's Minimap - Stage 3/3
-[19:15:37] [Render thread/INFO]: Loading XaeroLib common 2/2!
-[19:15:37] [Render thread/INFO]: Loading XaeroLib client 2/3!
-[19:15:37] [Render thread/INFO]: Loading XaeroLib client 3/3!
-[19:15:37] [Render thread/INFO]: Thread[#3,Render thread,10,main]
-[19:15:37] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
-[19:15:37] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
-[19:15:37] [Render thread/INFO]: OpenGL Version: 3.3.0 NVIDIA 617.14
-[19:15:37] [Render thread/INFO]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
-[19:15:37] [Render thread/INFO]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threaded command submission
-[19:15:37] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on MoboRearAux (2- Realtek(R) Audio)
-[19:15:37] [Render thread/INFO]: Sound engine started
-[19:15:37] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[19:15:37] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[19:15:37] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[19:15:37] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19:15:37] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[19:15:37] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[19:15:37] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
-[19:15:37] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
-[19:15:37] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[19:15:37] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
-[19:15:37] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[19:15:38] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[19:15:38] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19:15:38] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[19:15:52] [Render thread/INFO]: Connecting to mc.coxford.net, 25566
-[19:15:54] [Render thread/INFO]: Minimap required item set to nothing.
-[19:15:54] [Render thread/INFO]: New Xaero hud session initialized!
-[19:15:54] [Render thread/INFO]: Fullscreen map required item set to nothing.
-[19:15:54] [Render thread/INFO]: New world map session initialized!
-[19:15:54] [Render thread/INFO]: Started 6 worker threads
-[19:15:54] [Render thread/INFO]: Loaded 1585 vanilla recipes from client resources.
-[19:15:54] [Render thread/INFO]: Starting JEI...
-[19:15:54] [Render thread/INFO]: Configuring JEI...
-[19:15:54] [Render thread/INFO]: Configuring JEI took 290.7 microseconds
-[19:15:54] [Render thread/INFO]: Registering item subtypes...
-[19:15:54] [Render thread/INFO]: Registering item subtypes took 809.4 microseconds
-[19:15:54] [Render thread/INFO]: Registering fluid subtypes...
-[19:15:54] [Render thread/INFO]: Registering fluid subtypes took 76.20 microseconds
-[19:15:54] [Render thread/INFO]: Registering ingredients...
-[19:15:54] [Render thread/INFO]: Registering ingredients: jei:minecraft took 57.84 milliseconds
-[19:15:54] [Render thread/INFO]: Registering ingredients took 58.19 milliseconds
-[19:15:54] [Render thread/INFO]: Registering extra ingredients...
-[19:15:54] [Render thread/INFO]: Registering extra ingredients took 115.9 microseconds
-[19:15:54] [Render thread/INFO]: Registering search ingredient aliases...
-[19:15:54] [Render thread/INFO]: Registering search ingredient aliases took 95.60 microseconds
-[19:15:54] [Render thread/INFO]: Registering slot display interpreters...
-[19:15:54] [Render thread/INFO]: Registering slot display interpreters took 2.135 milliseconds
-[19:15:54] [Render thread/INFO]: Registering Mod Info...
-[19:15:54] [Render thread/INFO]: Registering Mod Info took 98.50 microseconds
-[19:15:54] [Render thread/INFO]: Registering advanced search...
-[19:15:54] [Render thread/INFO]: Registering advanced search took 93.40 microseconds
-[19:15:54] [Render thread/INFO]: Registering categories...
-[19:15:54] [Render thread/INFO]: Registering categories took 9.095 milliseconds
-[19:15:54] [Render thread/INFO]: Registering vanilla category extensions...
-[19:15:54] [Render thread/INFO]: Registering vanilla category extensions took 1.459 milliseconds
-[19:15:54] [Render thread/INFO]: Registering recipe catalysts...
-[19:15:54] [Render thread/INFO]: Registering recipe catalysts took 905.2 microseconds
-[19:15:54] [Render thread/INFO]: Building recipe registry...
-[19:15:54] [Render thread/INFO]: Building recipe registry took 5.454 milliseconds
-[19:15:54] [Render thread/INFO]: Registering advanced plugins...
-[19:15:54] [Render thread/INFO]: Added typed recipe manager plugin: class mezz.jei.library.plugins.vanilla.crafting.FireworkStarRecipeManagerPlugin
-[19:15:54] [Render thread/INFO]: Registering advanced plugins took 7.334 milliseconds
-[19:15:54] [Render thread/INFO]: Registering recipes...
-[19:15:55] [Render thread/INFO]: Registering recipes: jei:minecraft took 216.8 milliseconds
-[19:15:55] [Render thread/INFO]: Registering recipes: jei:internal took 57.86 milliseconds
-[19:15:55] [Render thread/INFO]: Registering recipes took 275.6 milliseconds
-[19:15:55] [Render thread/INFO]: Registering recipes transfer handlers...
-[19:15:55] [Render thread/INFO]: Registering recipes transfer handlers took 1.513 milliseconds
-[19:15:55] [Render thread/INFO]: Building runtime...
-[19:15:55] [Render thread/INFO]: Registering gui handlers...
-[19:15:55] [Render thread/INFO]: Registering gui handlers took 10.24 milliseconds
-[19:15:55] [Render thread/INFO]: Registering Runtime...
-[19:15:55] [Render thread/INFO]: Starting JEI GUI
-[19:15:55] [Render thread/INFO]: Building ingredient list...
-[19:15:55] [Render thread/INFO]: Building ingredient list took 20.27 milliseconds
-[19:15:55] [Render thread/INFO]: Building ingredient filter...
-[19:15:55] [Render thread/INFO]: Adding 1907 ingredients
-[19:15:55] [Render thread/INFO]: Added 1907 ingredients
-[19:15:55] [Render thread/INFO]: Building ingredient filter took 116.9 milliseconds
-[19:15:55] [Render thread/INFO]: Registering Runtime: jei:fabric_gui took 190.4 milliseconds
-[19:15:55] [Render thread/INFO]: Registering Runtime took 190.8 milliseconds
-[19:15:55] [Render thread/INFO]: Building runtime took 203.8 milliseconds
-[19:15:55] [Render thread/INFO]: Sending Runtime...
-[19:15:55] [Render thread/INFO]: Sending Runtime took 130.2 microseconds
-[19:15:55] [Render thread/INFO]: Starting JEI took 598.5 milliseconds
-[19:15:55] [Render thread/INFO]: [System] [CHAT] This Paper server does not provide recipes to JEI. JEI is showing default recipes from your client, which may be different on the server.
-[19:15:55] [Render thread/WARN]: This Paper server does not provide recipes to JEI. JEI is showing default recipes from your client, which may be different on the server.
-[19:15:55] [Render thread/INFO]: [System] [CHAT] [Parkour] This server uses Parkour 7.2.8
-[19:15:55] [Render thread/INFO]: [System] [CHAT] Welcome, ElectroBleach!
-[19:15:55] [Render thread/INFO]: [System] [CHAT] Type /help for a list of commands.
-[19:15:55] [Render thread/INFO]: [System] [CHAT] Type /list to see who else is online.
-[19:15:55] [Render thread/INFO]: [System] [CHAT] Players online: 1 - World time: 8:31 AM
-[19:15:55] [Render thread/INFO]: [System] [CHAT] You have no new mail.
-[19:15:55] [Render thread/INFO]: [System] [CHAT] Set fly mode enabled for ElectroBleach.
-[19:15:55] [Render thread/INFO]: [System] [CHAT] ElectroBleach joined the game
-[19:15:55] [Render thread/INFO]: [System] [CHAT] This server is using an outdated version of FancyNpcs\nCurrent version: 2.11.0\nLatest version: 2.12.1\nDownload latest version: click here
-[19:15:55] [Render thread/INFO]: Loaded 319 advancements
-[19:15:55] [Render thread/INFO]: [System] [CHAT] Shop >> There is an update available for EconomyShopGUI, you are running v7.2.1 but found v7.3.2.
-[19:15:55] [Render thread/INFO]: [System] [CHAT] Shop >> Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
-[19:15:55] [Render thread/INFO]: [System] [CHAT] [ViaVersion] There is a newer plugin version available: 5.12.1, you're on: 5.12.0
-[19:15:55] [Render thread/INFO]: [System] [CHAT] You're 4 EssentialsX dev build(s) out of date!
-[19:15:55] [Render thread/INFO]: [System] [CHAT] Download it here: https://essentialsx.net/downloads.html
-[19:15:55] [Render thread/WARN]: Server side doesn't have XaeroLib installed! Resetting.
-[19:15:55] [Render thread/WARN]: Server side doesn't have XaeroLib installed! Resetting.
-[19:15:55] [Render thread/INFO]: Stopping worker threads
-[19:15:55] [Render thread/INFO]: Started 6 worker threads
-[19:15:55] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[19:15:55] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[19:15:55] [Render thread/INFO]: Stopping worker threads
-[19:15:55] [Render thread/INFO]: Started 6 worker threads
-[19:15:55] [Render thread/INFO]: Reloading radar icon resources...
-[19:15:55] [Render thread/INFO]: Reloaded radar icon resources!
-[19:15:55] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[19:15:55] [Render thread/INFO]: Resized a dynamic immediate buffer to 1024!
-[19:15:55] [Render thread/INFO]: Resized a dynamic immediate buffer to 2048!
-[19:15:55] [Render thread/INFO]: Resized a dynamic immediate buffer to 4096!
-[19:15:56] [Render thread/INFO]: Resized a dynamic immediate buffer to 160!
-[19:15:56] [Render thread/INFO]: Resized a dynamic immediate buffer to 320!
-[19:15:56] [Render thread/INFO]: Resized a dynamic immediate buffer to 640!
-[19:15:56] [Render thread/INFO]: Resized a dynamic immediate buffer to 160!
-[19:15:57] [Render thread/INFO]: Resized a dynamic immediate buffer to 8192!
-[19:15:57] [Render thread/INFO]: Resized a dynamic immediate buffer to 320!
-[19:15:57] [Render thread/INFO]: Resized a dynamic immediate buffer to 1280!
-[19:15:57] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
-[19:15:57] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[19:15:58] [Render thread/INFO]: Resized a dynamic immediate buffer to 2560!
-[19:16:00] [Render thread/INFO]: [System] [CHAT] Set game mode creative for ElectroBleach.
-[19:16:01] [Render thread/INFO]: Resized a dynamic immediate buffer to 5120!
-[19:16:02] [Render thread/INFO]: Resized a dynamic immediate buffer to 640!
-[19:16:11] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Custom Skinpacks', ignoring
-[19:16:11] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Downloaded Skinpacks', ignoring
-[19:16:19] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Custom Skinpacks', ignoring
-[19:16:19] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Downloaded Skinpacks', ignoring
-[19:16:21] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Custom Skinpacks', ignoring
-[19:16:21] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Downloaded Skinpacks', ignoring
-[19:16:24] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Custom Skinpacks', ignoring
-[19:16:24] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Downloaded Skinpacks', ignoring
-[19:16:24] [Render thread/INFO]: Reloading ResourceManager: vanilla, betterf3, bobby, cloth-config, continuity, entityculling, fabric-advancement-api-v1, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-permission-api-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, iris, jei, lambdynlights, lambdynlights_api, lithium, mezz_config, modmenu, placeholder-api, pride, skinlayers3d, sodium, sodium-extra, spruceui, trender, xaerolib, xaerominimap, xaeroworldmap, file/VanillaTweaks_r114330_MC26.3.x.zip
-[19:16:24] [Worker-Main-9/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
-[19:16:24] [Worker-Main-10/INFO]: Found unifont_pua-17.0.01.hex, loading
-[19:16:24] [Worker-Main-2/WARN]: File minecraft:sounds/mob/cow/milk1.ogg does not exist, cannot add it to event minecraft:entity.cow.milk
-[19:16:24] [Worker-Main-2/WARN]: File minecraft:sounds/mob/cow/milk2.ogg does not exist, cannot add it to event minecraft:entity.cow.milk
-[19:16:24] [Worker-Main-2/WARN]: File minecraft:sounds/mob/cow/milk3.ogg does not exist, cannot add it to event minecraft:entity.cow.milk
-[19:16:24] [Worker-Main-9/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
-[19:16:24] [Worker-Main-11/WARN]: Missing block model: minecraft:block/brick_stairs_outer9
-[19:16:24] [Worker-Main-11/WARN]: Missing block model: minecraft:builtin/entity
-[19:16:25] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on MoboRearAux (2- Realtek(R) Audio)
-[19:16:25] [Render thread/INFO]: Sound engine started
-[19:16:25] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
-[19:16:25] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[19:16:25] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[19:16:25] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19:16:25] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[19:16:25] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[19:16:25] [Render thread/INFO]: Radar icon manager reset!
-[19:16:25] [Render thread/INFO]: Reloading radar icon resources...
-[19:16:25] [Render thread/INFO]: Reloaded radar icon resources!
-[19:16:25] [Render thread/INFO]: New world map region cache hash code: 549992114
-[19:16:25] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
-[19:16:25] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/celestials.png-atlas
-[19:16:25] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[19:16:25] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
-[19:16:25] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[19:16:25] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[19:16:25] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19:16:25] [Render thread/INFO]: Rebuilding ingredient filter...
-[19:16:25] [Render thread/INFO]: Rebuilding ingredient filter took 74.81 milliseconds
-[19:16:25] [Render thread/INFO]: Stopping worker threads
-[19:16:25] [Render thread/INFO]: Started 6 worker threads
-[19:16:27] [Render thread/INFO]: Resized a dynamic immediate buffer to 1280!
-[19:16:27] [Render thread/INFO]: Resized a dynamic immediate buffer to 2560!
-[19:16:31] [Render thread/INFO]: Resized a dynamic immediate buffer to 5120!
-[19:16:57] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Custom Skinpacks', ignoring
-[19:16:57] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Downloaded Skinpacks', ignoring
-[19:17:03] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Custom Skinpacks', ignoring
-[19:17:03] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Downloaded Skinpacks', ignoring
-[19:17:03] [Render thread/INFO]: Reloading ResourceManager: vanilla, betterf3, bobby, cloth-config, continuity, entityculling, fabric-advancement-api-v1, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-permission-api-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, iris, jei, lambdynlights, lambdynlights_api, lithium, mezz_config, modmenu, placeholder-api, pride, skinlayers3d, sodium, sodium-extra, spruceui, trender, xaerolib, xaerominimap, xaeroworldmap
-[19:17:03] [Worker-Main-11/INFO]: Found unifont_pua-17.0.01.hex, loading
-[19:17:03] [Worker-Main-7/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
-[19:17:03] [Worker-Main-9/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
-[19:17:04] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on MoboRearAux (2- Realtek(R) Audio)
-[19:17:04] [Render thread/INFO]: Sound engine started
-[19:17:04] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[19:17:04] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[19:17:04] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[19:17:04] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19:17:04] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[19:17:04] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[19:17:04] [Render thread/INFO]: Radar icon manager reset!
-[19:17:04] [Render thread/INFO]: Reloading radar icon resources...
-[19:17:04] [Render thread/INFO]: Reloaded radar icon resources!
-[19:17:04] [Render thread/INFO]: New world map region cache hash code: -1698990479
-[19:17:04] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
-[19:17:04] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
-[19:17:04] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[19:17:04] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
-[19:17:04] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[19:17:04] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[19:17:04] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19:17:04] [Render thread/INFO]: Rebuilding ingredient filter...
-[19:17:04] [Render thread/INFO]: Rebuilding ingredient filter took 70.31 milliseconds
-[19:17:04] [Render thread/INFO]: Stopping worker threads
-[19:17:04] [Render thread/INFO]: Started 6 worker threads
-[19:17:18] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Custom Skinpacks', ignoring
-[19:17:18] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Downloaded Skinpacks', ignoring
-[19:17:21] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Custom Skinpacks', ignoring
-[19:17:21] [Render thread/INFO]: Found non-pack entry 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\BasicallyLegacy\minecraft\resourcepacks\Legacy Downloaded Skinpacks', ignoring
-[19:17:21] [Render thread/INFO]: Reloading ResourceManager: vanilla, betterf3, bobby, cloth-config, continuity, entityculling, fabric-advancement-api-v1, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-permission-api-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, iris, jei, lambdynlights, lambdynlights_api, lithium, mezz_config, modmenu, placeholder-api, pride, skinlayers3d, sodium, sodium-extra, spruceui, trender, xaerolib, xaerominimap, xaeroworldmap, file/VanillaTweaks_r883182_MC26.3.x.zip
-[19:17:21] [Worker-Main-10/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
-[19:17:21] [Worker-Main-6/INFO]: Found unifont_pua-17.0.01.hex, loading
-[19:17:21] [Worker-Main-5/WARN]: File minecraft:sounds/mob/cow/milk1.ogg does not exist, cannot add it to event minecraft:entity.cow.milk
-[19:17:21] [Worker-Main-5/WARN]: File minecraft:sounds/mob/cow/milk2.ogg does not exist, cannot add it to event minecraft:entity.cow.milk
-[19:17:21] [Worker-Main-5/WARN]: File minecraft:sounds/mob/cow/milk3.ogg does not exist, cannot add it to event minecraft:entity.cow.milk
-[19:17:21] [Worker-Main-11/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
-[19:17:21] [Worker-Main-4/WARN]: Missing block model: minecraft:block/brick_stairs_outer9
-[19:17:21] [Worker-Main-4/WARN]: Missing block model: minecraft:builtin/entity
-[19:17:21] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on MoboRearAux (2- Realtek(R) Audio)
-[19:17:21] [Render thread/INFO]: Sound engine started
-[19:17:21] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
-[19:17:21] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[19:17:21] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[19:17:21] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19:17:21] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[19:17:21] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[19:17:21] [Render thread/INFO]: Radar icon manager reset!
-[19:17:21] [Render thread/INFO]: Reloading radar icon resources...
-[19:17:21] [Render thread/INFO]: Reloaded radar icon resources!
-[19:17:21] [Render thread/INFO]: New world map region cache hash code: -1851449706
-[19:17:21] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
-[19:17:21] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/celestials.png-atlas
-[19:17:21] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[19:17:21] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
-[19:17:21] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[19:17:21] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[19:17:21] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19:17:21] [Render thread/INFO]: Rebuilding ingredient filter...
-[19:17:21] [Render thread/INFO]: Rebuilding ingredient filter took 44.29 milliseconds
-[19:17:22] [Render thread/INFO]: Stopping worker threads
-[19:17:22] [Render thread/INFO]: Started 6 worker threads
-[19:18:19] [Render thread/INFO]: Stopping worker threads
-[19:18:19] [Render thread/INFO]: Started 6 worker threads
-[19:18:19] [Render thread/INFO]: [System] [CHAT] Teleporting...
-[19:18:19] [Render thread/WARN]: Server side doesn't have XaeroLib installed! Resetting.
-[19:18:19] [Render thread/INFO]: Stopping worker threads
-[19:18:19] [Render thread/INFO]: Started 6 worker threads
-[19:18:22] [Render thread/INFO]: [System] [CHAT] Cleared all inventory items from ElectroBleach.
-[19:18:26] [Render thread/INFO]: [System] [CHAT] Cleared all inventory items from ElectroBleach.
-[19:18:32] [Render thread/INFO]: Stopping worker threads
-[19:18:32] [Render thread/INFO]: Started 6 worker threads
-[19:18:32] [Render thread/WARN]: Server side doesn't have XaeroLib installed! Resetting.
-[19:18:32] [Render thread/INFO]: Stopping worker threads
-[19:18:32] [Render thread/INFO]: Started 6 worker threads
-[19:18:35] [Render thread/INFO]: [System] [CHAT] The time was set to 0 ticks in: oldparkour.
-[19:18:41] [Render thread/INFO]: [System] [CHAT] The time was set to 12000 ticks in: oldparkour.
-[19:18:43] [Render thread/INFO]: [System] [CHAT] The time was set to 1200 ticks in: oldparkour.
-[19:18:46] [Render thread/INFO]: [System] [CHAT] The time was set to 6000 ticks in: oldparkour.
-[19:18:51] [Render thread/INFO]: [System] [CHAT] The time was set to 6000 ticks in: oldparkour.
-[19:18:56] [Render thread/INFO]: [System] [CHAT] Gamerule advance_time is now set to: false
-[19:19:13] [Render thread/INFO]: [System] [CHAT] Set game mode creative for ElectroBleach.
-[19:20:47] [Render thread/INFO]: [System] [CHAT] The difficulty has been set to Peaceful
-[19:20:56] [Render thread/INFO]: [System] [CHAT] Gamerule spawn_mobs is now set to: false
-[19:21:02] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
-[19:21:03] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
-[19:21:16] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
-[19:21:18] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
-[19:21:24] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
-[19:21:25] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
-[19:21:32] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
-[19:21:33] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
-[19:22:02] [Render thread/INFO]: Stopping worker threads
-[19:22:02] [Render thread/INFO]: Started 6 worker threads
-[19:22:02] [Render thread/INFO]: [System] [CHAT] Teleporting...
-[19:22:02] [Render thread/WARN]: Server side doesn't have XaeroLib installed! Resetting.
-[19:22:02] [Render thread/INFO]: Stopping worker threads
-[19:22:02] [Render thread/INFO]: Started 6 worker threads
+	- sodium 0.9.3-beta.1+mc26.3
+	- sodium-extra 0.9.4+mc26.3
+	   \-- me_flashyreese_mods_greenlight-api 0.1.0+mc26.3
+	- sound_physics_remastered 1.5.1+26.3
+	- treeharvester 10.3
+	- voxy 0.2.20-beta
+	   |-- org_apache_commons_commons-pool2 2.12.0
+	   |-- org_lwjgl_lwjgl-lmdb 3.4.1
+	   |-- org_lwjgl_lwjgl-lmdb_natives-linux 3.4.1
+	   |-- org_lwjgl_lwjgl-lmdb_natives-windows 3.4.1
+	   |-- org_lwjgl_lwjgl-zstd 3.4.1
+	   |-- org_lwjgl_lwjgl-zstd_natives-linux 3.4.1
+	   |-- org_lwjgl_lwjgl-zstd_natives-windows 3.4.1
+	   |-- org_lz4_lz4-java 1.8.0
+	   |-- org_rocksdb_rocksdbjni 10.2.1
+	   |-- org_tukaani_xz 1.10
+	   \-- redis_clients_jedis 5.1.0
+	- voxy-extra 0.2.7
+	- yet_another_config_lib_v3 3.9.7+26.3-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[21:45:55] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/esteban/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[21:45:55] [main/WARN]: Reference map 'entityculling.refmap.mixins.json' for entityculling.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:45:55] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[21:45:55] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
+[21:45:55] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[21:45:55] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
+[21:45:55] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[21:45:55] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
+[21:45:55] [main/INFO]: Loaded configuration file for Lithium: 170 options available, 0 override(s) found.
+[21:45:55] [main/WARN]: Reference map 'skinlayers3d.refmap.mixins.json' for skinlayers3d.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:45:55] [main/INFO]: Loaded configuration file for Sodium: 37 options available, 1 override(s) found
+[21:45:55] [main/INFO]: Loaded configuration file for Sodium Extra: 26 options available, 0 override(s) found
+[21:45:55] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:45:55] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:45:56] [main/WARN]: Error loading class: de/siphalor/amecs/key_modifiers/impl/AmecsKeyModifiersEarlyInit (java.lang.ClassNotFoundException: de/siphalor/amecs/key_modifiers/impl/AmecsKeyModifiersEarlyInit)
+[21:45:56] [main/WARN]: Error loading class: traben/entity_model_features/models/parts/EMFModelPart (java.lang.ClassNotFoundException: traben/entity_model_features/models/parts/EMFModelPart)
+[21:45:56] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[21:45:56] [main/WARN]: Error loading class: com/moulberry/flashback/record/FlashbackMeta (java.lang.ClassNotFoundException: com/moulberry/flashback/record/FlashbackMeta)
+[21:45:56] [main/WARN]: @Mixin target com.moulberry.flashback.record.FlashbackMeta was not found voxy-extra.mixins.json:flashback.FlashbackMetaMixin from mod voxy-extra
+[21:45:56] [main/WARN]: Error loading class: com/moulberry/flashback/Flashback (java.lang.ClassNotFoundException: com/moulberry/flashback/Flashback)
+[21:45:56] [main/WARN]: @Mixin target com.moulberry.flashback.Flashback was not found voxy-extra.mixins.json:flashback.FlashbackMixin from mod voxy-extra
+[21:45:56] [main/WARN]: Error loading class: com/moulberry/flashback/record/Recorder (java.lang.ClassNotFoundException: com/moulberry/flashback/record/Recorder)
+[21:45:56] [main/WARN]: @Mixin target com.moulberry.flashback.record.Recorder was not found voxy-extra.mixins.json:flashback.FlashbackRecorderMixin from mod voxy-extra
+[21:45:56] [main/WARN]: Error loading class: com/moulberry/flashback/screen/SaveReplayScreen (java.lang.ClassNotFoundException: com/moulberry/flashback/screen/SaveReplayScreen)
+[21:45:56] [main/WARN]: @Mixin target com.moulberry.flashback.screen.SaveReplayScreen was not found voxy-extra.mixins.json:flashback.FlashbackSaveReplayScreenMixin from mod voxy-extra
+[21:45:56] [main/WARN]: Error loading class: com/replaymod/recording/handler/ConnectionEventHandler (java.lang.ClassNotFoundException: com/replaymod/recording/handler/ConnectionEventHandler)
+[21:45:56] [main/WARN]: @Mixin target com.replaymod.recording.handler.ConnectionEventHandler was not found voxy-extra.mixins.json:replaymod.ConnectionEventHandlerMixin from mod voxy-extra
+[21:45:56] [main/INFO]: Searching for graphics cards...
+[21:45:56] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 3060', adapterType=0x0000030B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\nvmdi.inf_amd64_3990df11758b8744\nvoglv64.dll', openglIcdVersion=32.0.16.1714}
+[21:45:56] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[21:45:56] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[21:45:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[21:45:57] [Datafixer Bootstrap #0/INFO]: 307 Datafixer optimizations took 216 milliseconds
+[21:46:00] [Render thread/INFO]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[21:46:00] [Render thread/INFO]: Setting user: ElectroBleach
+[21:46:00] [Render thread/INFO]: Loading Collective version 8.59.
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as RocksDB for config type StorageConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as Redis for config type StorageConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as ReadonlyCachingLayer for config type StorageConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config2 as AutoFragmentationAdaptor for config type StorageConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as FragmentationAdaptor for config type StorageConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered ConditionalStorageBackendConfig as ConditionalConfig for config type StorageConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as CompressionAdaptor for config type StorageConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered BasicPathInsertionConfig as BasicPathConfig for config type StorageConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as LMDB for config type StorageConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as Memory for config type StorageConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as Serializer for config type SectionStorageConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as ZSTD for config type CompressorConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered Config as LZ4 for config type CompressorConfig
+[21:46:01] [Render thread/INFO]: [me.cx.vy.cn.cg.Serialization]: Registered 13 config types
+[21:46:01] [Render thread/INFO]: [Voxy Extra] Loading Voxy Extra
+[21:46:01] [Render thread/INFO]: Deserializing Config from 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\Vanilla++\minecraft\config\betterclouds-v1.json'
+[21:46:01] [Render thread/INFO]: [BetterClouds] DistantHorizons: not loaded
+[21:46:01] [Render thread/INFO]: [BetterClouds] Iris: initializing compat
+[21:46:01] [Render thread/INFO]: [BetterClouds] SereneSeasons: not loaded
+[21:46:01] [Render thread/INFO]: [BetterF3] Loading...
+[21:46:01] [Render thread/INFO]: [BetterF3] All done!
+[21:46:01] [Render thread/INFO]: Pre-initializing Controlify...
+[21:46:01] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[21:46:01] [Render thread/INFO]: Sending ConfigManager...
+[21:46:01] [Render thread/INFO]: Sending ConfigManager took 628.2 microseconds
+[21:46:01] [Render thread/WARN]: Using Cloth Config GUI
+[21:46:01] [Render thread/INFO]: Checking mod updates...
+[21:46:01] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[21:46:01] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[21:46:01] [Render thread/INFO]: Reloading reverb parameters
+[21:46:01] [Render thread/INFO]: [STDOUT]: [TRender] Initializing Client...
+[21:46:01] [Render thread/INFO]: Deserializing YACLConfig from 'C:\Users\esteban\AppData\Roaming\PrismLauncher\instances\Vanilla++\minecraft\config\yacl.json5'
+[21:46:01] [Render thread/INFO]: Initializing mods (entrypoint yumi:init)...
+[21:46:01] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[21:46:01] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[21:46:02] [Render thread/INFO]: Backend library: LWJGL version 3.4.3-snapshot
+[21:46:02] [Render thread/INFO]: SDL [SYSTEM]: App name: Minecraft
+[21:46:02] [Render thread/INFO]: SDL [SYSTEM]: App version: 26.3
+[21:46:02] [Render thread/INFO]: SDL [SYSTEM]: App ID: com.mojang.minecraft
+[21:46:02] [Render thread/INFO]: SDL [SYSTEM]: SDL revision: SDL-3.4.14-62f10da
+[21:46:02] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[21:46:02] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[21:46:02] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
+[21:46:02] [Render thread/WARN]: Error loading class: com/replaymod/replaystudio/replay/ReplayMetaData (java.lang.ClassNotFoundException: com/replaymod/replaystudio/replay/ReplayMetaData)
+[21:46:02] [Render thread/WARN]: [BetterClouds] No level when getWorldSeed was called?
+[21:46:02] [Render thread/INFO]: Debug functionality is disabled.
+[21:46:02] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[21:46:02] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
+[21:46:02] [Render thread/INFO]: Using graphics backend OpenGL, using drivers: 3.3.0 NVIDIA 617.14
+[21:46:02] [Render thread/INFO]: Using graphics device: NVIDIA GeForce RTX 3060/PCIe/SSE2 (NVIDIA Corporation)
+[21:46:02] [Render thread/INFO]: Using graphics device extensions: GL_ARB_multi_draw_indirect, GL_ARB_shader_draw_parameters, GL_ARB_base_instance, GL_KHR_debug, GL_ARB_draw_indirect, GL_ARB_clip_control, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+[21:46:02] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[21:46:02] [Render thread/INFO]: Created window using SDL video driver: windows
+[21:46:03] [Render thread/INFO]: Hardware information:
+[21:46:03] [Render thread/INFO]: CPU: 12x AMD Ryzen 5 7600X 6-Core Processor 
+[21:46:03] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 3060/PCIe/SSE2 (Supports OpenGL 3.3.0 NVIDIA 617.14)
+[21:46:03] [Render thread/INFO]: OS: Windows 10 (10.0)
+[21:46:03] [Render thread/INFO]: Reloading ResourceManager: vanilla, vanilla, betterclouds, betterf3, bobby, cloth-config, collective, continuity, controlify, entityculling, fabric-advancement-api-v1, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-permission-api-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, iris, jei, lambdynlights, lambdynlights_api, lithium, mezz_config, modmenu, placeholder-api, pride, simplefog, skinlayers3d, sodium, sodium-extra, sound_physics_remastered, spruceui, trender, voxy, voxy-extra, yet_another_config_lib_v3, c418only:c418only, file/VanillaTweaks_r883182_MC26.3.x.zip
+[21:46:03] [Worker-Main-4/WARN]: File minecraft:sounds/mob/cow/milk1.ogg does not exist, cannot add it to event minecraft:entity.cow.milk
+[21:46:03] [Worker-Main-4/WARN]: File minecraft:sounds/mob/cow/milk2.ogg does not exist, cannot add it to event minecraft:entity.cow.milk
+[21:46:03] [Worker-Main-4/WARN]: File minecraft:sounds/mob/cow/milk3.ogg does not exist, cannot add it to event minecraft:entity.cow.milk
+[21:46:03] [Worker-Main-6/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[21:46:03] [Worker-Main-2/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[21:46:03] [Worker-Main-4/INFO]: Found unifont_pua-17.0.01.hex, loading
+[21:46:03] [Worker-Main-1/WARN]: Missing block model: minecraft:block/brick_stairs_outer9
+[21:46:03] [Worker-Main-1/WARN]: Missing block model: minecraft:builtin/entity
+[21:46:03] [Render thread/INFO]: Thread[#3,Render thread,10,main]
+[21:46:03] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[21:46:03] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+[21:46:03] [Render thread/INFO]: OpenGL Version: 3.3.0 NVIDIA 617.14
+[21:46:03] [Render thread/INFO]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[21:46:03] [Render thread/INFO]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threaded command submission
+[21:46:04] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on MoboRearAux (2- Realtek(R) Audio)
+[21:46:04] [Render thread/INFO]: Initializing Sound Physics
+[21:46:04] [Render thread/INFO]: EFX Extension recognized
+[21:46:04] [Render thread/INFO]: Max auxiliary sends: 4
+[21:46:04] [Render thread/INFO]: Aux slot 1 created
+[21:46:04] [Render thread/INFO]: Aux slot 2 created
+[21:46:04] [Render thread/INFO]: Aux slot 3 created
+[21:46:04] [Render thread/INFO]: Aux slot 4 created
+[21:46:04] [Render thread/INFO]: EFX ready
+[21:46:04] [Render thread/INFO]: Sound engine started
+[21:46:04] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/celestials.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:46:05] [Render thread/INFO]: [KeyboardLayoutManager] Loaded 3 keyboard layouts
+[21:46:05] [Render thread/INFO]: [BetterClouds] betterclouds:shader_presets not loaded yet, waiting for next resource load
+[21:46:05] [Render thread/INFO]: [BetterClouds] All preset resources loaded, initializing preset config
+[21:46:05] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[21:46:05] [Render thread/INFO]: [nt.mt.ct.rr.LevelRenderer]: Not creating renderer due to null identifier
+[21:46:05] [Render thread/INFO]: Initializing Controlify...
+[21:46:05] [Render thread/INFO]: Selected and locked Controlify profile 0
+[21:46:05] [Render thread/INFO]: [SDLNativesLoader] Loaded SDL from controlify
+[21:46:05] [Render thread/INFO]: [SDLNativesLoader] Loading SDL3 version: SdlVersionNumber[major=3, minor=4, micro=12]. Java bindings targeting: SdlVersionNumber[major=3, minor=4, micro=14]
+[21:46:05] [Render thread/WARN]: [SDLNativesLoader] SDL3 NATIVE LIBRARY VERSION MISMATCH! Java bindings are targeting a different version of SDL3 than the loaded native library. This may cause issues.
+[21:46:07] [Render thread/INFO]: [SDLNativesLoader] Successfully initialised SDL subsystems
+[21:46:07] [Render thread/INFO]: Successfully loaded 576 gamepad mapping entries!
+[21:46:07] [Render thread/INFO]: No controllers found.
+[21:46:07] [Render thread/ERROR]: [SteamDeckUtil] Skipping Steam Deck checks as steamOS has temporarily broken the enhanced driver.
+[21:46:07] [Render thread/INFO]: Steam Deck state: NOT_STEAM_DECK
+[21:46:07] [Render thread/INFO]: [BetterClouds] Initial pipeline parameters: PipelineParams[celestialBodyHalo=true, nearCloudFade=false, iris=false, distantHorizons=false, voxy=false, reverseZ=false, zNeg1To1=false, cloudsOpaque=false]
+[21:46:11] [Render thread/INFO]: Connecting to mc.coxford.net, 25565
+[21:46:13] [Render thread/INFO]: [me.cx.vy.cl.VoxyInstance]: Initializing voxy instance
+[21:46:13] [Render thread/INFO]: [me.cx.vy.cl.VoxyInstance]: Dedicated voxy thread pool size: 4
+[21:46:13] [Render thread/INFO]: [me.cx.vy.cl.VoxyInstance]: Creating new world engine: -4245850578545714857@1030211376
+[21:46:13] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Creating Voxy render system
+[21:46:13] [Render thread/INFO]: [me.cx.vy.ct.ce.RenderResourceReuse]: Running on nvidia, using workaround sparse buffer allocation
+[21:46:13] [Render thread/INFO]: [me.cx.vy.ct.ce.RenderResourceReuse]: Allocated new geometry buffer: 536870912, isSparse: true, driver stated 512Mb of free memory
+[21:46:13] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Voxy render system created with 536870912 geometry capacity, using pipeline 'NormalRenderPipeline' with renderer 'MDICSectionRenderer'
+[21:46:13] [Render thread/INFO]: Started 6 worker threads
+[21:46:13] [Render thread/INFO]: [me.cx.vy.cl.VoxyInstance]: Dedicated voxy thread pool size: 1
+[21:46:14] [Render thread/WARN]: [me.cx.vy.cl.is.DHImporter]: Unable to load sqlite JDBC or lzma decompressor, DHImporting wont be available
+[21:46:14] [Render thread/INFO]: Loaded 2042 vanilla recipes from the client recipe registry.
+[21:46:14] [Render thread/INFO]: Starting JEI...
+[21:46:14] [Render thread/INFO]: Configuring JEI...
+[21:46:14] [Render thread/INFO]: Configuring JEI took 314.0 microseconds
+[21:46:14] [Render thread/INFO]: Registering item subtypes...
+[21:46:14] [Render thread/INFO]: Registering item subtypes took 765.5 microseconds
+[21:46:14] [Render thread/INFO]: Registering fluid subtypes...
+[21:46:14] [Render thread/INFO]: Registering fluid subtypes took 54.70 microseconds
+[21:46:14] [Render thread/INFO]: Registering ingredients...
+[21:46:14] [Render thread/INFO]: Registering ingredients: jei:minecraft took 51.78 milliseconds
+[21:46:14] [Render thread/INFO]: Registering ingredients took 52.10 milliseconds
+[21:46:14] [Render thread/INFO]: Registering extra ingredients...
+[21:46:14] [Render thread/INFO]: Registering extra ingredients took 119.9 microseconds
+[21:46:14] [Render thread/INFO]: Registering search ingredient aliases...
+[21:46:14] [Render thread/INFO]: Registering search ingredient aliases took 65.30 microseconds
+[21:46:14] [Render thread/INFO]: Registering slot display interpreters...
+[21:46:14] [Render thread/INFO]: Registering slot display interpreters took 2.470 milliseconds
+[21:46:14] [Render thread/INFO]: Registering Mod Info...
+[21:46:14] [Render thread/INFO]: Registering Mod Info took 137.3 microseconds
+[21:46:14] [Render thread/INFO]: Registering advanced search...
+[21:46:14] [Render thread/INFO]: Registering advanced search took 141.8 microseconds
+[21:46:14] [Render thread/INFO]: Registering categories...
+[21:46:14] [Render thread/INFO]: Registering categories took 8.143 milliseconds
+[21:46:14] [Render thread/INFO]: Registering vanilla category extensions...
+[21:46:14] [Render thread/INFO]: Registering vanilla category extensions took 1.532 milliseconds
+[21:46:14] [Render thread/INFO]: Registering recipe catalysts...
+[21:46:14] [Render thread/INFO]: Registering recipe catalysts took 886.5 microseconds
+[21:46:14] [Render thread/INFO]: Building recipe registry...
+[21:46:14] [Render thread/INFO]: Building recipe registry took 5.642 milliseconds
+[21:46:14] [Render thread/INFO]: Registering advanced plugins...
+[21:46:14] [Render thread/INFO]: Added typed recipe manager plugin: class mezz.jei.library.plugins.vanilla.crafting.FireworkStarRecipeManagerPlugin
+[21:46:14] [Render thread/INFO]: Registering advanced plugins took 8.037 milliseconds
+[21:46:14] [Render thread/INFO]: Registering recipes...
+[21:46:14] [Render thread/INFO]: Registering recipes: jei:minecraft took 172.8 milliseconds
+[21:46:14] [Render thread/INFO]: Registering recipes: jei:internal took 21.10 milliseconds
+[21:46:14] [Render thread/INFO]: Registering recipes took 194.5 milliseconds
+[21:46:14] [Render thread/INFO]: Registering recipes transfer handlers...
+[21:46:14] [Render thread/INFO]: Registering recipes transfer handlers took 1.280 milliseconds
+[21:46:14] [Render thread/INFO]: Building runtime...
+[21:46:14] [Render thread/INFO]: Registering gui handlers...
+[21:46:14] [Render thread/INFO]: Registering gui handlers took 8.085 milliseconds
+[21:46:14] [Render thread/INFO]: Registering Runtime...
+[21:46:14] [Render thread/INFO]: Starting JEI GUI
+[21:46:14] [Render thread/INFO]: Building ingredient list...
+[21:46:14] [Render thread/INFO]: Building ingredient list took 11.00 milliseconds
+[21:46:14] [Render thread/INFO]: Building ingredient filter...
+[21:46:14] [Render thread/INFO]: Adding 2012 ingredients
+[21:46:15] [Render thread/INFO]: Added 2012 ingredients
+[21:46:15] [Render thread/INFO]: Building ingredient filter took 216.0 milliseconds
+[21:46:15] [Render thread/INFO]: Registering Runtime: jei:fabric_gui took 280.9 milliseconds
+[21:46:15] [Render thread/INFO]: Registering Runtime took 281.2 milliseconds
+[21:46:15] [Render thread/INFO]: Building runtime took 291.8 milliseconds
+[21:46:15] [Render thread/INFO]: Sending Runtime...
+[21:46:15] [Render thread/INFO]: Sending Runtime took 122.9 microseconds
+[21:46:15] [Render thread/INFO]: Starting JEI took 600.7 milliseconds
+[21:46:15] [Render thread/INFO]: [System] [CHAT] This Paper server does not provide recipes to JEI. JEI is showing default recipes from your client, which may be different on the server.
+[21:46:15] [Render thread/WARN]: This Paper server does not provide recipes to JEI. JEI is showing default recipes from your client, which may be different on the server.
+[21:46:15] [Render thread/INFO]: [System] [CHAT] Welcome, [ADMIN] ElectroBleach!
+[21:46:15] [Render thread/INFO]: [System] [CHAT] Type /help for a list of commands.
+[21:46:15] [Render thread/INFO]: [System] [CHAT] Type /list to see who else is online.
+[21:46:15] [Render thread/INFO]: [System] [CHAT] Players online: 1 - World time: 6:00 AM
+[21:46:15] [Render thread/INFO]: [System] [CHAT] You have no new mail.
+[21:46:15] [Render thread/INFO]: [System] [CHAT] [ADMIN] ElectroBleach joined the game
+[21:46:15] [Render thread/INFO]: Loaded 423 advancements
+[21:46:15] [Render thread/INFO]: Stopping worker threads
+[21:46:15] [Render thread/INFO]: Started 6 worker threads
+[21:46:15] [Render thread/WARN]: Requested post effect does not exist: minecraft:end_of_frame
+[21:46:15] [Render thread/INFO]: [BetterClouds] No tasks, updating geometry
+[21:46:15] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[21:46:15] [Render thread/INFO]: [System] [CHAT] [Bobby] This world contains data from an old version of Minecraft. Run `/bobby upgrade` to upgrade it.
+[21:46:15] [Render thread/INFO]: [BetterClouds] No tasks, updating geometry
+[21:46:15] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[21:46:15] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[21:46:17] [Chunk Render Task Executor #1/INFO]: [me.cx.vy.cn.wd.ActiveSectionTracker]: section raced to into save queue, we lost
+[21:46:18] [Dedicated Voxy Worker #3/WARN]: [me.cx.vy.cn.wd.ActiveSectionTracker]: section raced to save queue, we lost
+[21:46:27] [Async Node Manager/INFO]: [me.cx.vy.ct.ce.rg.hl.AsyncNodeManager$ComputeMemoryCopy]: Resizing scratch data buffer to: 2097152
+[21:46:27] [Async Node Manager/INFO]: [me.cx.vy.ct.ce.rg.hl.AsyncNodeManager$ComputeMemoryCopy]: Resizing scratch data buffer to: 2097152
+[21:46:27] [Async Node Manager/INFO]: [me.cx.vy.ct.ce.rg.hl.AsyncNodeManager$ComputeMemoryCopy]: Resizing scratch data buffer to: 4194304
+[21:46:32] [Render thread/INFO]: [System] [CHAT] [Bobby] Upgrading world data to current Minecraft version. This may take a few minutes.
+[21:46:32] [Render thread/INFO]: [System] [CHAT] [Bobby] Upgraded 0 of (estimated) 13312 chunks (world 1 of 1).
+[21:46:33] [Render thread/INFO]: [System] [CHAT] [Bobby] Upgraded 588 of (estimated) 588 chunks (world 1 of 1).
+[21:46:33] [Render thread/INFO]: [System] [CHAT] [Bobby] Upgraded 588 of (estimated) 588 chunks (world 1 of 1).
+[21:46:33] [Render thread/INFO]: [System] [CHAT] [Bobby] World data upgrade complete. Your old chunks should now be visible again.
+[21:46:40] [Render thread/INFO]: [System] [CHAT] Set game mode creative for [ADMIN] ElectroBleach.
+[21:47:04] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[21:47:08] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[21:47:08] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Flushing download stream
+[21:47:08] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Shutting down rendering
+[21:47:08] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Shutting down render pipeline
+[21:47:08] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Flushing download stream
+[21:47:08] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Render shutdown completed
+[21:47:08] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Creating Voxy render system
+[21:47:08] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Voxy render system created with 536870912 geometry capacity, using pipeline 'NormalRenderPipeline' with renderer 'MDICSectionRenderer'
+[21:47:08] [Render thread/INFO]: Stopping worker threads
+[21:47:08] [Render thread/INFO]: Started 6 worker threads
+[21:47:09] [Async Node Manager/INFO]: [me.cx.vy.ct.ce.rg.hl.AsyncNodeManager$ComputeMemoryCopy]: Resizing scratch data buffer to: 2097152
+[21:47:10] [Async Node Manager/INFO]: [me.cx.vy.ct.ce.rg.hl.AsyncNodeManager$ComputeMemoryCopy]: Resizing scratch data buffer to: 4194304
+[21:47:18] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Flushing download stream
+[21:47:18] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Shutting down rendering
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Shutting down render pipeline
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Flushing download stream
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Render shutdown completed
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Creating Voxy render system
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Voxy render system created with 536870912 geometry capacity, using pipeline 'NormalRenderPipeline' with renderer 'MDICSectionRenderer'
+[21:47:19] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Flushing download stream
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Shutting down rendering
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Shutting down render pipeline
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Flushing download stream
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Render shutdown completed
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Creating Voxy render system
+[21:47:19] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Voxy render system created with 536870912 geometry capacity, using pipeline 'NormalRenderPipeline' with renderer 'MDICSectionRenderer'
+[21:47:19] [Render thread/INFO]: Stopping worker threads
+[21:47:19] [Render thread/INFO]: Started 6 worker threads
+[21:47:22] [Async Node Manager/INFO]: [me.cx.vy.ct.ce.rg.hl.AsyncNodeManager$ComputeMemoryCopy]: Resizing scratch data buffer to: 2097152
+[21:47:31] [Async Node Manager/INFO]: [me.cx.vy.ct.ce.rg.hl.AsyncNodeManager$ComputeMemoryCopy]: Resizing scratch data buffer to: 4194304
+[21:48:19] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[21:49:57] [Render thread/INFO]: [System] [CHAT] Left click: select pos #1; Right click: select pos #2
+[21:50:02] [Render thread/INFO]: [System] [CHAT] First position set to (1405, 119, 1391).
+[21:50:15] [Render thread/INFO]: [System] [CHAT] First position set to (1399, 120, 1390).
+[21:50:17] [Render thread/INFO]: [System] [CHAT] Second position set to (1403, 113, 1391) (80).
+[21:50:25] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:50:25] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:50:25] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:50:38] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1407, 120, 1391)
+[21:50:38] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:50:38] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:50:38] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:50:48] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1412, 120, 1391)
+[21:50:48] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:50:48] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:50:48] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:50:55] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1419, 120, 1391)
+[21:50:55] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:50:55] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:50:55] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:51:01] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1424, 120, 1391)
+[21:51:01] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:51:01] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:51:01] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:51:06] [Render thread/INFO]: [System] [CHAT] The clipboard copy has been rotated.
+[21:51:24] [Render thread/INFO]: [System] [CHAT] The clipboard copy has been rotated.
+[21:51:26] [Render thread/INFO]: [System] [CHAT] The clipboard copy has been rotated.
+[21:51:32] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1426, 120, 1387)
+[21:51:32] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:51:32] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:51:32] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:51:34] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[21:51:36] [Render thread/INFO]: [System] [CHAT] The clipboard copy has been rotated.
+[21:51:40] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1427, 120, 1387)
+[21:51:40] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:51:40] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:51:40] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:52:11] [Render thread/INFO]: [System] [CHAT] The clipboard copy has been rotated.
+[21:52:12] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1407, 120, 1383)
+[21:52:12] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:52:12] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:52:12] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:52:15] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[21:52:19] [Render thread/INFO]: [System] [CHAT] The clipboard copy has been rotated.
+[21:52:21] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1407, 120, 1383)
+[21:52:21] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:52:21] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:52:21] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:52:27] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1412, 120, 1383)
+[21:52:27] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:52:27] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:52:27] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:52:35] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1419, 120, 1383)
+[21:52:35] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:52:35] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:52:35] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:52:42] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1424, 120, 1383)
+[21:52:42] [Render thread/INFO]: [System] [CHAT] 80 blocks affected
+[21:52:42] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:52:42] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:57:56] [Render thread/INFO]: [System] [CHAT] First position set to (1409, 125, 1384) (728).
+[21:58:01] [Render thread/INFO]: [System] [CHAT] Second position set to (1410, 127, 1390) (42).
+[21:58:07] [Render thread/INFO]: [System] [CHAT] 42 blocks affected
+[21:58:07] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:58:07] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:58:12] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1410, 130, 1391)
+[21:58:12] [Render thread/INFO]: [System] [CHAT] 42 blocks affected
+[21:58:12] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:58:12] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:58:29] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1421, 130, 1391)
+[21:58:29] [Render thread/INFO]: [System] [CHAT] 42 blocks affected
+[21:58:29] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:58:29] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:58:34] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[21:58:38] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1422, 130, 1391)
+[21:58:38] [Render thread/INFO]: [System] [CHAT] 42 blocks affected
+[21:58:38] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[21:58:38] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[21:59:27] [Render thread/INFO]: [System] [CHAT] Game rule advance_time is now set to true
+[21:59:59] [Render thread/INFO]: [System] [CHAT] [server] lol
+[22:02:29] [Render thread/INFO]: Loaded 424 advancements
+[22:02:38] [Render thread/INFO]: Loaded 426 advancements
+[22:05:47] [Render thread/INFO]: Loaded 426 advancements
+[22:06:05] [Dedicated Voxy Worker #3/WARN]: [me.cx.vy.cn.wd.ActiveSectionTracker]: section raced to save queue, we lost
+[22:06:05] [Chunk Render Task Executor #3/WARN]: [me.cx.vy.cn.wd.ActiveSectionTracker]: section raced to save queue, we lost
+[22:06:05] [Chunk Render Task Executor #4/WARN]: [me.cx.vy.cn.wd.ActiveSectionTracker]: section raced to save queue, we lost
+[22:06:05] [Chunk Render Task Executor #5/WARN]: [me.cx.vy.cn.wd.ActiveSectionTracker]: section raced to save queue, we lost
+[22:06:05] [Chunk Render Task Executor #3/WARN]: [me.cx.vy.cn.wd.ActiveSectionTracker]: section raced to save queue, we lost
+[22:06:19] [Chunk Render Task Executor #5/WARN]: [me.cx.vy.cn.wd.ActiveSectionTracker]: section raced to save queue, we lost
+[22:12:52] [Render thread/INFO]: Loaded 427 advancements
+[22:13:39] [Render thread/INFO]: [System] [CHAT] First position set to (1411, 128, 1383) (32).
+[22:13:42] [Render thread/INFO]: [System] [CHAT] Second position set to (1413, 129, 1391) (54).
+[22:13:46] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[22:13:50] [Render thread/INFO]: [System] [CHAT] Unknown or incomplete command. See below for error\n/COPY<--[HERE]
+[22:13:52] [Render thread/INFO]: [System] [CHAT] 54 blocks affected
+[22:13:52] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[22:13:52] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[22:13:55] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[22:13:58] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1407, 128, 1391)
+[22:13:58] [Render thread/INFO]: [System] [CHAT] 54 blocks affected
+[22:13:58] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[22:13:58] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[22:14:01] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[22:14:08] [Render thread/INFO]: [System] [CHAT] First position set to (1413, 136, 1391) (8).
+[22:14:13] [Render thread/INFO]: [System] [CHAT] Second position set to (1411, 128, 1383) (243).
+[22:14:19] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[22:14:24] [Render thread/INFO]: [System] [CHAT] 243 blocks affected
+[22:14:24] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[22:14:24] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[22:14:28] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1407, 128, 1391)
+[22:14:28] [Render thread/INFO]: [System] [CHAT] 243 blocks affected
+[22:14:28] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[22:14:28] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[22:14:35] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1419, 128, 1391)
+[22:14:35] [Render thread/INFO]: [System] [CHAT] 243 blocks affected
+[22:14:35] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[22:14:35] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[22:14:39] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (1424, 128, 1391)
+[22:14:39] [Render thread/INFO]: [System] [CHAT] 243 blocks affected
+[22:14:39] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[22:14:39] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[22:14:42] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[22:14:52] [Render thread/INFO]: Loaded 428 advancements
+[22:25:59] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[22:30:00] [Render thread/INFO]: [System] [CHAT] [server] lol
+[22:34:18] [Render thread/INFO]: Loaded 435 advancements
+[22:38:41] [Render thread/INFO]: Loaded 442 advancements
+[22:45:24] [Render thread/INFO]: Stopping JEI
+[22:45:24] [Render thread/INFO]: Stopping JEI
+[22:45:24] [Render thread/INFO]: Sending Runtime Unavailable...
+[22:45:24] [Render thread/INFO]: Stopping JEI GUI
+[22:45:24] [Render thread/INFO]: Sending Runtime Unavailable took 238.9 microseconds
+[22:45:24] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Flushing download stream
+[22:45:24] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Shutting down rendering
+[22:45:24] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Shutting down render pipeline
+[22:45:24] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Flushing download stream
+[22:45:24] [Render thread/INFO]: [me.cx.vy.ct.ce.VoxyRenderSystem]: Render shutdown completed
+[22:45:24] [Render thread/INFO]: Stopping worker threads
+[22:45:24] [Render thread/INFO]: [me.cx.vy.cl.VoxyInstance]: Shutting down voxy instance
+[22:45:25] [Render thread/INFO]: [me.cx.vy.cl.VoxyInstance]: Instance shutdown
+[22:45:26] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[22:45:26] [Render thread/INFO]: Stopping!

@@ -11,3 +11,31 @@
 /difficulty peaceful
 /gamerule spawn_mobs false
 /spawn
+/back
+/bobby upgrade
+/gamemode creative
+//wand
+//copy
+//paste
+//rotate 180
+//rotate 90
+//paste
+//undo
+//rotate 180
+//paste
+//rotate 90
+//paste
+//undo
+//rotate 180
+//paste
+//cut
+//paste
+//undo
+//paste
+/gamerule advance_time true
+//COPY
+//copy
+//paste
+//undo
+//copy
+//paste

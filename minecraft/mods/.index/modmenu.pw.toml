@@ -1,25 +1,25 @@
-filename = 'modmenu-20.0.2.jar'
+filename = 'modmenu-21.0.0.jar'
 name = 'Mod Menu'
-side = 'client'
+side = ''
 x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '20.0.2'
+x-prismlauncher-version-number = '21.0.0'
 
 [download]
-hash = '9baebd229ff5a0a377a0269f2a8783dd9bde682b0773d9ce380dedf61b214676f1d13b9904e84403afb418c13d3ee23c3120e09032c53cb4c762091af1a4b0fb'
+hash = '588c0c557963f4778572ee81bfafc190b332c26d5926c5fe7e3e1614dcf8e14f58e3bc80a97694521dd05907e9753a7c8575048ea769e4dbf40a3db74a4e2606'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/mOgUt4GM/versions/WdLLrOzD/modmenu-20.0.2.jar'
+url = 'https://cdn.modrinth.com/data/mOgUt4GM/versions/kyy7dbrZ/modmenu-21.0.0.jar'
 
 [update.modrinth]
 mod-id = 'mOgUt4GM'
-version = 'WdLLrOzD'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
+version = 'kyy7dbrZ'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'eXts2L7r'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
 type = 'REQUIRED'

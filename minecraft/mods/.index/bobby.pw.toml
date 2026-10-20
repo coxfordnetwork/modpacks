@@ -1,20 +1,24 @@
-filename = 'bobby-5.2.15+mc26.2.jar'
+filename = 'bobby-5.2.16+mc26.3.jar'
 name = 'Bobby'
-side = 'client'
+side = ''
 x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '5.2.15+mc26.2'
+x-prismlauncher-version-number = '5.2.16+mc26.3'
 
 [download]
-hash = '25261b02b2db7f969de5c7013b7e223508a9e6005d61f287911af30c0fecd06c40df1e3cb4d6f7b714093f6b8ecffb5dfba25726c370ef3a0a74dcebf7711631'
+hash = 'f9ed86c48eb095b0e35f6f16abd376ad8dd3d2a5cd336fe8907d0562c9ecd1e0c7af35fc5afed121e1385fc14e41cc5f915ca986c3e19434f5c278cc0664b444'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/M08ruV16/versions/KLiFVFju/bobby-5.2.15%2Bmc26.2.jar'
+url = 'https://cdn.modrinth.com/data/M08ruV16/versions/J7YnfCss/bobby-5.2.16%2Bmc26.3.jar'
 
 [update.modrinth]
 mod-id = 'M08ruV16'
-version = 'KLiFVFju'
+version = 'J7YnfCss'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '9s6osm5g'
@@ -22,8 +26,4 @@ type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'mOgUt4GM'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'AANobbMI'
 type = 'OPTIONAL'
