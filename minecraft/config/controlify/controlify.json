@@ -14,8 +14,16 @@
     "use_enhanced_steam_deck_driver": true,
     "keyboard_movement": false,
     "analogue_movement_whitelist": [],
-    "seen_servers": [],
+    "seen_servers": [
+      "mc.coxford.net"
+    ],
     "show_splitscreen_ad": true
   },
-  "devices": {}
+  "devices": {
+    "fabff0444bfd0d0c23c4d59e7df64fae": {
+      "name": "Logitech X52 Professional H.O.T.A.S.",
+      "last_seen": 1793157766053,
+      "gyro_calibration": {}
+    }
+  }
 }
