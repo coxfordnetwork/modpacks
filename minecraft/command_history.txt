@@ -1,10 +1,9 @@
-/gamemode creative
-//wand
-/time set day
-/gamemode creative
-//set air
-/lobby
+/cape capture
 /gamemode creative
 //set stone
-//wand
-//set calcite
+/time set 0
+/time set night
+/time set midnight
+/time set day
+/time set noon
+/time set sunset

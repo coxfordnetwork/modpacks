@@ -1,4 +1,4 @@
-version:4790
+version:5023
 ao:true
 biomeBlendRadius:1
 chunkSectionFadeInTime:0.0
@@ -8,21 +8,24 @@ entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:0.0
+fov:0.15
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
+preferredGraphicsBackend:"default"
 graphicsPreset:"custom"
 prioritizeChunkUpdates:0
 fullscreen:false
 exclusiveFullscreen:false
-gamma:1.0
+macFullscreenMenuVisibility:false
+gamma:0.4057324507357059
 guiScale:0
+debugGuiScale:0
 maxAnisotropyBit:2
 textureFiltering:0
-maxFps:120
-improvedTransparency:false
+maxFps:260
+improvedTransparency:true
 inactivityFpsLimit:"afk"
 mipmapLevels:4
 narrator:0
@@ -30,14 +33,14 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:128
-renderDistance:128
-simulationDistance:12
+renderDistance:32
+simulationDistance:32
 screenEffectScale:1.0
 soundDevice:""
 vignette:true
 weatherRadius:10
 autoJump:false
-rotateWithMinecart:false
+rotateWithMinecart:true
 operatorItemsTab:true
 autoSuggestions:true
 chatColors:true
@@ -49,7 +52,6 @@ invertYMouse:false
 realmsNotifications:true
 showSubtitles:false
 directionalAudio:false
-touchscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -59,17 +61,17 @@ sprintWindow:7
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 hideSplashTexts:false
-mouseSensitivity:0.5
+mouseSensitivity:0.6288636455465884
 damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
-narratorHotkey:true
-resourcePacks:["vanilla","programmer_art","file/PACP_Base_Release.zip","legacy:legacy_waters","file/Legacy Panorama","file/Legacy Worlds.zip","file/TutorialWorldAddon.zip","continuity:default","continuity:glass_pane_culling_fix","file/Transparency Fix.zip","legacy:legacy_resources","file/Legacy Titles.zip","file/Legacy Downloaded Skinpacks","file/Legacy Custom Skinpacks","c418only:c418only","Clean World Loading"]
-incompatibleResourcePacks:["collective","cpm","entity_model_features","entity_texture_features","forgeconfigapiport","globalpacks","modernfix","proplacer","wrench_wrapper_backend","yet_another_config_lib_v3","file/Legacy-Modpack-Resources.zip","file/Panorama","2000s Edition Controller Tips","Community Splashes Pack","Fixed Chest Models","LCE Common Resources","Re-Console Resources"]
+narratorHotkey:false
+resourcePacks:["vanilla","lambdabettergrass:default","legacy:legacy_waters","file/Hybrid Aspects","file/TutorialWorldAddon.zip","continuity:default","continuity:glass_pane_culling_fix","legacy:legacy_resources","file/Legacy Titles.zip","file/Legacy Downloaded Skinpacks","file/Legacy Custom Skinpacks","c418only:c418only","Clean World Loading"]
+incompatibleResourcePacks:["bannerpoint","collective","cpm","entity_model_features","entity_texture_features","forgeconfigapiport","globalpacks","modernfix","wrench_wrapper_backend","yet_another_config_lib_v3","file/Legacy-Modpack-Resources.zip","file/Legacy Worlds.zip","file/Transparency Fix.zip","file/Panorama","Re-Console Resources","Fixed Chest Models","Community Splashes Pack","LCE Common Resources","2000s Edition Controller Tips"]
 lastServer:
 lang:en_us
 chatVisibility:0
-chatOpacity:1.0
+chatOpacity:0.5217502887841002
 chatLineSpacing:1.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
@@ -81,16 +83,17 @@ overrideHeight:480
 chatHeightFocused:1.0
 chatDelay:0.0
 chatHeightUnfocused:0.4375
-chatScale:1.0
-chatWidth:1.0
-notificationDisplayTime:1.0
+chatScale:0.39494798424742084
+chatWidth:0.5542347913633774
+notificationDisplayTime:0.6
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:0
 tutorialStep:movement
 mouseWheelSensitivity:1.0
-rawMouseInput:true
 allowCursorChanges:true
+quitShortcuts:true
+ctrlClickEmulatesRightClick:false
 glDebugVerbosity:1
 skipMultiplayerWarning:true
 hideMatchedNames:true
@@ -98,11 +101,13 @@ joinedFirstServer:true
 syncChunkWrites:true
 showAutosaveIndicator:false
 allowServerListing:true
+inGameNotification:false
+sharePresence:"all"
 onlyShowSecureChat:false
 saveChatDrafts:false
-panoramaScrollSpeed:1.0
+panoramaScrollSpeed:0.28
 telemetryOptInExtra:false
-onboardAccessibility:true
+onboardAccessibility:false
 menuBackgroundBlurriness:5
 startedCleanly:true
 musicToast:"never"
@@ -122,6 +127,7 @@ key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
+key_key.friends:key.keyboard.o
 key_key.socialInteractions:key.keyboard.p
 key_key.toggleGui:key.keyboard.f1
 key_key.toggleSpectatorShaderEffects:key.keyboard.f4
@@ -167,8 +173,12 @@ key_key.debug.profilingChart:key.keyboard.1
 key_key.debug.fpsCharts:key.keyboard.2
 key_key.debug.networkCharts:key.keyboard.3
 key_key.debug.lightmapTexture:key.keyboard.4
-key_Open Mod Configuration:key.keyboard.backslash
-key_Reload Mod:key.keyboard.end
+key_key.debug.improvedTransparency:key.keyboard.x
+key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
+key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
+key_key.stfu.narrator_hotkey:key.keyboard.unknown
+key_key.stfu.skip_music:key.keyboard.unknown
+key_key.stfu.toggle_music:key.keyboard.unknown
 key_key.bedrockentitymodels.dump:key.keyboard.unknown
 key_key.bedrockskins.open:key.keyboard.k
 key_key.bedrockskins.play_emote:key.keyboard.b
@@ -200,7 +210,6 @@ key_key.cpm.qa_15:key.keyboard.unknown
 key_key.cpm.qa_16:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown
-key_key.l4jaddons.cycle_potion_level:key.keyboard.v
 key_key.debug.reloadLanguages:key.keyboard.j
 key_legacy.key.crafting:key.keyboard.e
 key_legacy.key.toggleCrafting:key.keyboard.unknown
@@ -223,7 +232,6 @@ key_key.ok_zoomer.decrease_zoom:key.keyboard.unknown
 key_key.ok_zoomer.increase_zoom:key.keyboard.unknown
 key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
 key_key.picturemode.open:key.keyboard.m
-key_key.proplacer.fast_placement:key.keyboard.unknown
 key_key.renderscale.options:key.keyboard.o
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
@@ -235,8 +243,9 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
-soundCategory_master:0.051051051051051094
-soundCategory_music:0.030030030030029988
+key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
+soundCategory_master:1.0
+soundCategory_music:0.2151711444517434
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

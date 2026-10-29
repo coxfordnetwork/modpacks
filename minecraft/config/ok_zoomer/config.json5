@@ -54,13 +54,12 @@
 		// options: OFF, VIGNETTE, SPYGLASS
 		// default: OFF
 		zoom_overlay: "OFF",
-		// Improves performance by making the game render less of the world while zoomed in. This feature depends on the Sodium mod in order to work.
+		// Improves performance by making the game render less of the world while zoomed in.
 		// default: true
 		smart_occlusion: true,
-		// Expands the entity distance while zooming in, allowing creatures and certain blocks to be seen from afar. This may have a performance impact during zoom.
-		// options: OFF, SAFE, ON
-		// default: SAFE
-		see_distant_entities: "SAFE"
+		// Expands the entity distance while zooming in, allowing creatures and certain blocks to be seen from afar.
+		// default: true
+		see_distant_entities: true
 	},
 	// Options affecting the way zooming is controlled.
 	controls: {
